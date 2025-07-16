@@ -1259,3 +1259,44 @@ java.lang.NullPointerException: null
 [16Jul2025 00:54:58.846] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
 [16Jul2025 00:56:13.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: robeeert7385 has made the advancement [Stone Age]
 [16Jul2025 00:58:04.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: robeeert7385 has made the advancement [Getting an Upgrade]
+[16Jul2025 00:59:48.327] [Server thread/DEBUG] [mixin/]: Mixing common.entity.MixinPiglinTasks from byg.mixins.json into net.minecraft.entity.monster.piglin.PiglinTasks
+[16Jul2025 00:59:48.328] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$static$0(Lit/unimi/dsi/fastutil/objects/Reference2ReferenceOpenHashMap;)V to mdd07fb0$lambda$static$0$0 in byg.mixins.json:common.entity.MixinPiglinTasks
+[16Jul2025 00:59:48.332] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_230280_a_ with desc (Lnet/minecraft/item/ShootableItem;)Z
+[16Jul2025 00:59:48.335] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_208003_a with desc (Lnet/minecraft/item/ItemStack;Lnet/minecraft/item/ItemStack;)Z
+[16Jul2025 00:59:48.342] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming func_82840_a with desc (Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/client/util/ITooltipFlag;)Ljava/util/List;
+[16Jul2025 00:59:48.418] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/ItemStack
+[16Jul2025 00:59:57.583] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[16Jul2025 00:59:57.601] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[16Jul2025 01:00:43.812] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: robeeert7385 has made the advancement [Hot Stuff]
+[16Jul2025 01:01:36.703] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_folding_chair}[facing=south] but failed at location BlockPos{x=-216, y=63, z=-222}
+[16Jul2025 01:02:09.451] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set own game mode to Creative Mode]
+[16Jul2025 01:02:46.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set the time to 1000]
+[16Jul2025 01:02:48.262] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set own game mode to Survival Mode]
+[16Jul2025 01:04:58.079] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:gray_cushion_chair}[facing=south] but failed at location BlockPos{x=-217, y=66, z=-235}
+[16Jul2025 01:04:58.080] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_umbrella}[facing=east,multipos=base] but failed at location BlockPos{x=-216, y=70, z=-232}
+[16Jul2025 01:04:58.081] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_folding_chair}[facing=north] but failed at location BlockPos{x=-218, y=66, z=-239}
+[16Jul2025 01:04:58.081] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:blue_rug}[facing=west,multipos=bottom] but failed at location BlockPos{x=-216, y=66, z=-240}
+[16Jul2025 01:04:58.082] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_folding_chair}[facing=north] but failed at location BlockPos{x=-216, y=66, z=-239}
+[16Jul2025 01:04:58.083] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:blue_rug}[facing=south,multipos=base] but failed at location BlockPos{x=-215, y=66, z=-240}
+[16Jul2025 01:04:58.083] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_umbrella}[facing=south,multipos=top] but failed at location BlockPos{x=-219, y=68, z=-238}
+[16Jul2025 01:04:58.084] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:gray_chair}[facing=north] but failed at location BlockPos{x=-215, y=63, z=-232}
+[16Jul2025 01:04:58.085] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_umbrella}[facing=north,multipos=base] but failed at location BlockPos{x=-217, y=67, z=-225}
+[16Jul2025 01:04:58.085] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_rug}[facing=east,multipos=base] but failed at location BlockPos{x=-216, y=63, z=-236}
+[16Jul2025 01:04:58.086] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_rug}[facing=south,multipos=bottom] but failed at location BlockPos{x=-216, y=63, z=-235}
+[16Jul2025 01:04:58.086] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:gray_armchair}[facing=west] but failed at location BlockPos{x=-215, y=63, z=-236}
+[16Jul2025 01:04:58.088] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:gray_armchair}[facing=west] but failed at location BlockPos{x=-215, y=63, z=-235}
+[16Jul2025 01:04:58.088] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:light_gray_rug}[facing=north,multipos=bottom] but failed at location BlockPos{x=-217, y=63, z=-240}
+[16Jul2025 01:04:58.089] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:light_gray_rug}[facing=west,multipos=base] but failed at location BlockPos{x=-217, y=63, z=-239}
+[16Jul2025 01:04:58.089] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_umbrella}[facing=east,multipos=top] but failed at location BlockPos{x=-216, y=71, z=-232}
+[16Jul2025 01:04:58.089] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_umbrella}[facing=south,multipos=base] but failed at location BlockPos{x=-219, y=67, z=-238}
+[16Jul2025 01:04:58.091] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_folding_chair}[facing=west] but failed at location BlockPos{x=-216, y=66, z=-226}
+[16Jul2025 01:04:58.093] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_folding_chair}[facing=east] but failed at location BlockPos{x=-218, y=66, z=-226}
+[16Jul2025 01:04:58.093] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:brown_umbrella}[facing=north,multipos=top] but failed at location BlockPos{x=-217, y=68, z=-225}
+[16Jul2025 01:04:58.175] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:lime_rug}[facing=east,multipos=base] but failed at location BlockPos{x=-217, y=66, z=-243}
+[16Jul2025 01:04:58.175] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a block entity for block Block{pixelmon:lime_rug}[facing=south,multipos=bottom] but failed at location BlockPos{x=-217, y=66, z=-242}
+[16Jul2025 01:04:58.284] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[16Jul2025 01:04:58.295] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[16Jul2025 01:05:49.035] [Server thread/WARN] [net.minecraftforge.eventbus.EventBus/EVENTBUS]: Attempting to add a Lambda listener with computed generic type of Event. Are you sure this is what you meant? NOTE : there are complex lambda forms where the generic type information is erased and cannot be recovered at runtime.
+[16Jul2025 01:06:56.712] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: robeeert7385 successfully healed robeeert7385's Pokémon!]
+[16Jul2025 01:07:22.990] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set own game mode to Creative Mode]
+[16Jul2025 01:07:53.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set own game mode to Survival Mode]
