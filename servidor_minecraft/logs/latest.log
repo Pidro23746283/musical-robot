@@ -281,3 +281,8 @@ java.lang.NullPointerException: null
 [16Jul2025 01:06:56.712] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: robeeert7385 successfully healed robeeert7385's Pokémon!]
 [16Jul2025 01:07:22.990] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set own game mode to Creative Mode]
 [16Jul2025 01:07:53.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set own game mode to Survival Mode]
+[16Jul2025 01:10:52.868] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: robeeert7385 has made the advancement [Only took me four tries *Fist pump*]
+[16Jul2025 01:12:23.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: Set the time to 1000]
+[16Jul2025 01:15:37.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [robeeert7385: robeeert7385 gave robeeert7385 a Arbok!]
+[16Jul2025 01:17:24.163] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: robeeert7385 lost connection: Disconnected
+[16Jul2025 01:17:24.163] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: robeeert7385 left the game
