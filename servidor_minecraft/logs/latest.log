@@ -6043,3 +6043,28 @@ Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown block
 [23:40:04] [Server thread/INFO]: robeeert7385 issued server command: /weather sun
 [23:40:08] [Server thread/INFO]: robeeert7385 issued server command: /time set day
 [23:45:31] [Server thread/INFO]: robeeert7385 issued server command: /tps
+[23:47:57] [Server thread/INFO]: robeeert7385 issued server command: /if get Kauan
+[23:48:22] [Server thread/INFO]: robeeert7385 issued server command: /if get bela
+[23:48:43] [Server thread/INFO]: robeeert7385 issued server command: /if get pietro
+[23:51:02] [Server thread/INFO]: robeeert7385 issued server command: /region define s
+[23:51:12] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[23:51:21] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[23:52:05] [Server thread/INFO]: robeeert7385 issued server command: /region flag s block-break deny
+[23:52:21] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[23:52:23] [Server thread/INFO]: robeeert7385 issued server command: /region flag s block-place deny
+[23:52:30] [Server thread/INFO]: [robeeert7385: Set own game mode to Survival Mode]
+[23:52:34] [Server thread/INFO]: robeeert7385 issued server command: /deop robeeert7385
+[23:52:34] [Server thread/INFO]: [robeeert7385: Made robeeert7385 no longer a server operator]
+[23:52:51] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[23:52:51] [Server thread/INFO]: Made robeeert7385 a server operator
+[23:52:56] [Server thread/INFO]: [robeeert7385: Set own game mode to Creative Mode]
+[23:53:01] [Server thread/INFO]: [robeeert7385: Set own game mode to Survival Mode]
+[23:53:03] [Server thread/INFO]: robeeert7385 issued server command: /deop robeeert7385
+[23:53:03] [Server thread/INFO]: [robeeert7385: Made robeeert7385 no longer a server operator]
+[23:53:18] [Server thread/INFO]: Made robeeert7385 a server operator
+[23:53:22] [Server thread/INFO]: [robeeert7385: Set own game mode to Creative Mode]
+[23:53:29] [Server thread/INFO]: Made robeeert7385 no longer a server operator
+[23:54:33] [Server thread/INFO]: Made robeeert7385 a server operator
+[23:54:45] [Server thread/INFO]: robeeert7385 issued server command: /setspawn
+[23:54:50] [Server thread/INFO]: [robeeert7385: Set own game mode to Survival Mode]
+[23:55:18] [Server thread/INFO]: robeeert7385 issued server command: /spawn
