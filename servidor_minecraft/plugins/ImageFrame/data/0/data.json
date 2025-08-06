@@ -1,0 +1,59 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 0,
+  "name": "Kauan",
+  "url": "https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/510588695_909756431348609_290718304722524945_n.jpg?ccb\u003d11-4\u0026oh\u003d01_Q5Aa2AFIJqFTINw5mp5Q3RzeXOPQYxRjLz75SePgFG9JqawauQ\u0026oe\u003d68A08619\u0026_nc_sid\u003d5e03e0\u0026_nc_cat\u003d108",
+  "width": 3,
+  "height": 3,
+  "ditheringType": "nearest-color",
+  "creator": "cc87c641-6c3b-3200-8ebc-585e92243fc1",
+  "hasAccess": {},
+  "creationTime": 1754495688117,
+  "mapdata": [
+    {
+      "mapid": 0,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 1,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 2,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 3,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 4,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 5,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 6,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 7,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 8,
+      "image": "8.png",
+      "markers": []
+    }
+  ]
+}

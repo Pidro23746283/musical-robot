@@ -1,0 +1,59 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 1,
+  "name": "bela",
+  "url": "https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/505417367_732745702722589_3601816222972568710_n.jpg?ccb\u003d11-4\u0026oh\u003d01_Q5Aa2AFQ1APo1cY4SRqjOx-xmWmvdJlV1Ur-BXoLXd4bf_K5tA\u0026oe\u003d68A08B5A\u0026_nc_sid\u003d5e03e0\u0026_nc_cat\u003d110",
+  "width": 3,
+  "height": 3,
+  "ditheringType": "nearest-color",
+  "creator": "cc87c641-6c3b-3200-8ebc-585e92243fc1",
+  "hasAccess": {},
+  "creationTime": 1754496791743,
+  "mapdata": [
+    {
+      "mapid": 9,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 10,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 11,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 12,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 13,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 14,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 15,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 16,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 17,
+      "image": "8.png",
+      "markers": []
+    }
+  ]
+}

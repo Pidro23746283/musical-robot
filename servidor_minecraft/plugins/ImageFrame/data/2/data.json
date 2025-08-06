@@ -1,0 +1,59 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 2,
+  "name": "pietro",
+  "url": "https://media-gru1-1.cdn.whatsapp.net/v/t61.24694-24/491886230_1378099846561651_6726016675241443688_n.jpg?ccb\u003d11-4\u0026oh\u003d01_Q5Aa2AEuU43zWuENKU3kf0WS3BRX7sSFxXGykCU6di32EiARJg\u0026oe\u003d68A080BE\u0026_nc_sid\u003d5e03e0\u0026_nc_cat\u003d111",
+  "width": 3,
+  "height": 3,
+  "ditheringType": "nearest-color",
+  "creator": "cc87c641-6c3b-3200-8ebc-585e92243fc1",
+  "hasAccess": {},
+  "creationTime": 1754496847592,
+  "mapdata": [
+    {
+      "mapid": 18,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 19,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 20,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 21,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 22,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 23,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 24,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 25,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 26,
+      "image": "8.png",
+      "markers": []
+    }
+  ]
+}
