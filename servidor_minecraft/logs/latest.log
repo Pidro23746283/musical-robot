@@ -6030,3 +6030,16 @@ Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Unknown block
 [23:34:58] [Server thread/INFO]: robeeert7385 joined the game
 [23:34:58] [Server thread/INFO]: robeeert7385[/127.249.162.81:35509] logged in with entity id 1448 at ([world]-77.21827416425647, 99.35740596791152, -45.7779285975709)
 [23:35:57] [Server thread/INFO]: robeeert7385 issued server command: /fill -77 99 -46
+[23:36:32] [Server thread/INFO]: robeeert7385 issued server command: /fill -77 99 -46 -73 75 -48 air replace minecraft:nether_bricks
+[23:36:32] [Server thread/INFO]: [robeeert7385: Successfully filled 40 block(s)]
+[23:37:07] [Server thread/INFO]: robeeert7385 issued server command: /fill -77 99 -46 -73 75 -48 minecraft:nether_bricks replace minecraft:air
+[23:37:07] [Server thread/INFO]: [robeeert7385: Successfully filled 337 block(s)]
+[23:38:02] [Server thread/INFO]: robeeert7385 issued server command: /fill -73 71 -62
+[23:38:14] [Server thread/INFO]: robeeert7385 issued server command: /fill -73 71 -62 -77 99 -67 minecraft:nether_bricks replace minecraft:air
+[23:38:14] [Server thread/INFO]: [robeeert7385: Successfully filled 809 block(s)]
+[23:39:15] [Server thread/INFO]: robeeert7385 issued server command: /fill -73 99 -83
+[23:39:44] [Server thread/INFO]: robeeert7385 issued server command: /fill -73 99 -83 -77 71 -81 minecraft:nether_bricks replace air
+[23:39:44] [Server thread/INFO]: [robeeert7385: Successfully filled 386 block(s)]
+[23:40:04] [Server thread/INFO]: robeeert7385 issued server command: /weather sun
+[23:40:08] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[23:45:31] [Server thread/INFO]: robeeert7385 issued server command: /tps
