@@ -1,0 +1,19 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 3,
+  "name": "logo",
+  "url": "https://media.discordapp.net/attachments/886719307738910784/1409550605113884672/peq14.png?ex\u003d68adc9cc\u0026is\u003d68ac784c\u0026hm\u003d4062f48bc82b064bd8baf08d25606da2edee836fa149ad7b945cb24145c8612f\u0026\u003d\u0026format\u003dwebp\u0026quality\u003dlossless\u0026width\u003d80\u0026height\u003d80",
+  "width": 1,
+  "height": 1,
+  "ditheringType": "nearest-color",
+  "creator": "cc87c641-6c3b-3200-8ebc-585e92243fc1",
+  "hasAccess": {},
+  "creationTime": 1756133469976,
+  "mapdata": [
+    {
+      "mapid": 63,
+      "image": "0.png",
+      "markers": []
+    }
+  ]
+}
