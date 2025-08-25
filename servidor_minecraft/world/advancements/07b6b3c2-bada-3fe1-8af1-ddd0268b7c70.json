@@ -555,7 +555,8 @@
     "criteria": {
       "minecraft:skeleton": "2025-08-25 21:17:15 +0000",
       "minecraft:spider": "2025-08-25 21:15:49 +0000",
-      "minecraft:zombie": "2025-08-25 21:16:29 +0000"
+      "minecraft:zombie": "2025-08-25 21:16:29 +0000",
+      "minecraft:slime": "2025-08-25 22:19:55 +0000"
     },
     "done": false
   },
