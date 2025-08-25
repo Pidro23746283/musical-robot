@@ -24,6 +24,10 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
     type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 13
   slot_2:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
@@ -36,3 +40,23 @@ contents:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
     type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 1
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIORITE
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PODZOL
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIRT

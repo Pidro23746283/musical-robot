@@ -1,6 +1,6 @@
 AvatarState:
   Enabled: true
-  Cooldown: 7200000
+  Cooldown: 720000
   Duration: 480000
   PlaySound: true
   ShowParticles: true
