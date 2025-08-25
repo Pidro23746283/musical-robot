@@ -30,3 +30,9 @@ Taken         : [NAUTILUS_SHELL & UNSPECIFIC_META:{meta-type=UNSPECIFIC, display
 }} x 1]
 Given         : []
 Target        : Ibiisgiu
+[2025-08-25 21:57:02] [INFO]:
+Spectator UUID: cc87c641-6c3b-3200-8ebc-585e92243fc1
+Spectator Name: robeeert7385
+Taken         : []
+Given         : [PAPER & UNSPECIFIC_META:{meta-type=UNSPECIFIC, display-name="Sky da a Bunda"} x 1]
+Target        : SkyDeath__

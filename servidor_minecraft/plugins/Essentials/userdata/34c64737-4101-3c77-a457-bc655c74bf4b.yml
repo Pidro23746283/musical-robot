@@ -11,22 +11,22 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756158519295
+  lastteleport: 1756159707551
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1756159754154
   login: 1756154297041
 money: '0'
 lastlocation:
   world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
   world-name: world
-  x: -50.348013569273405
-  y: 110.0
-  z: -1162.983391614029
-  yaw: -159.607177734375
-  pitch: 19.79991912841797
+  x: 1.0
+  y: 137.0
+  z: 57.0
+  yaw: -62.25
+  pitch: -16.499998092651367
 last-account-name: SkyDeath__
 homes:
   teste:
@@ -53,3 +53,11 @@ homes:
     z: -1120.84927299452
     yaw: 28.06536865234375
     pitch: 1.8541940450668335
+logoutlocation:
+  world: adaec260-f0b5-48f6-8c0c-469678464ca1
+  world-name: world_nether
+  x: -99.30000001192093
+  y: 71.0
+  z: -133.30000001192093
+  yaw: 39.8499641418457
+  pitch: 23.099693298339844
