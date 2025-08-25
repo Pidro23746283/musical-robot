@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756158073164
+  lastteleport: 1756158519295
   lastheal: 0
   mute: 0
   jail: 0
@@ -22,11 +22,11 @@ money: '0'
 lastlocation:
   world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
   world-name: world
-  x: 49.729585903874785
-  y: 65.0
-  z: -1223.6900142752593
-  yaw: 0.210693359375
-  pitch: 4.199368476867676
+  x: -50.348013569273405
+  y: 110.0
+  z: -1162.983391614029
+  yaw: -159.607177734375
+  pitch: 19.79991912841797
 last-account-name: SkyDeath__
 homes:
   teste:
@@ -37,3 +37,19 @@ homes:
     z: -771.6968137944483
     yaw: 6.446075439453125
     pitch: 33.44984436035156
+  base:
+    world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
+    world-name: world
+    x: -64.32678895033283
+    y: 111.0
+    z: -1151.9241327733835
+    yaw: -22.2183837890625
+    pitch: 17.849853515625
+  portal:
+    world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
+    world-name: world
+    x: -3.0004139643825134
+    y: -53.0
+    z: -1120.84927299452
+    yaw: 28.06536865234375
+    pitch: 1.8541940450668335

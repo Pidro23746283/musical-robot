@@ -36,3 +36,12 @@ logoutlocation:
   z: 57.59306601400065
   yaw: 0.0
   pitch: 0.0
+homes:
+  home:
+    world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
+    world-name: world
+    x: -4.417400442392518
+    y: -52.0
+    z: -1120.699408533843
+    yaw: -80.76262664794922
+    pitch: 13.499995231628418
