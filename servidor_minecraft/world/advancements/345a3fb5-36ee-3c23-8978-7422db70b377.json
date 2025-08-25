@@ -1,16 +1,4 @@
 {
-  "minecraft:recipes/decorations/torch": {
-    "criteria": {
-      "has_stone_pickaxe": "2025-08-25 04:15:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2025-08-25 04:15:41 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "unlock_right_away": "2025-08-25 04:15:40 +0000"
@@ -20,6 +8,18 @@
   "minecraft:recipes/misc/map": {
     "criteria": {
       "has_compass": "2025-08-25 04:15:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2025-08-25 04:15:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2025-08-25 04:15:41 +0000"
     },
     "done": true
   },
