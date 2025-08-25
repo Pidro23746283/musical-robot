@@ -3234,3 +3234,61 @@ java.lang.NullPointerException: Cannot invoke "com.celestialswords.models.Celest
 [21:23:45] [Server thread/INFO]: robeeert7385 issued server command: /tp Ibiisgiu
 [21:23:50] [Server thread/INFO]: robeeert7385 issued server command: /spawn
 [21:23:56] [Server thread/INFO]: robeeert7385 issued server command: /gamemode creative
+[21:25:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:base_attack_speed
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:25:20] [Server thread/INFO]: SkyDeath__ was slain by Lvl 8 | Zombie
+[21:25:25] [Server thread/INFO]: SkyDeath__ issued server command: /tpa Ibiisgiu
+[21:25:38] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[21:25:40] [Server thread/INFO]: robeeert7384 has made the advancement [Isn't It Iron Pick]
+[21:25:54] [Server thread/INFO]: robeeert7384 issued server command: /gui
+[21:30:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:30:33] [Server thread/INFO]: robeeert7385 issued server command: /origin set SkyDeath__ origin human
+[21:34:04] [Server thread/INFO]: SkyDeath__ issued server command: /tpa Ibiisgiu
+[21:34:11] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[21:34:36] [Server thread/INFO]: robeeert7384 issued server command: /delhome d
+[21:35:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:35:41] [Server thread/INFO]: SkyDeath__ has made the advancement [Hot Stuff]
