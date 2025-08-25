@@ -3674,3 +3674,35 @@ java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
 [22:46:49] [Server thread/INFO]: robeeert7385 issued server command: /spawn
 [22:47:07] [Server thread/INFO]: robeeert7385 lost connection: Disconnected
 [22:47:07] [Server thread/INFO]: robeeert7385 left the game
+[22:50:19] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:55:19] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:base_attack_speed
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
