@@ -14,7 +14,7 @@ regions:
         min: {x: -11, y: 121, z: 41}
         max: {x: 44, y: 152, z: 68}
         members: {}
-        flags: {block-break: deny, block-place: deny}
+        flags: {block-break: deny, interact: deny, block-place: deny}
         owners: {}
         type: cuboid
         priority: 0

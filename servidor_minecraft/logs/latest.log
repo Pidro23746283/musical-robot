@@ -759,3 +759,297 @@ Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
 [20:53:30] [Server thread/INFO]: robeeert7385 issued server command: /spawn SkyDeath__
 [20:53:32] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Blaze
 [20:53:34] [Server thread/INFO]: robeeert7385 issued server command: /spawn Ibiisgiu
+[20:54:03] [Server thread/INFO]: SkyDeath__ has made the advancement [Monster Hunter]
+[20:54:08] [Server thread/INFO]: SkyDeath__ issued server command: /b clear
+[20:54:10] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Blaze
+[20:55:00] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to ProjectKorra v1.12.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.getName()" because "killer" is null
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.PKListener.onPlayerDeath(PKListener.java:1153) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor414.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:1030) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.die(ServerPlayer.java:1038) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1586) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.entity.CraftLivingEntity.damage(CraftLivingEntity.java:440) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.entity.CraftLivingEntity.damage(CraftLivingEntity.java:413) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.util.DamageHandler.damageEntity(DamageHandler.java:214) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.firebending.util.FireDamageTimer.dealFlameDamage(FireDamageTimer.java:76) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.PKListener.onEntityDamageEvent(PKListener.java:578) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor381.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1189) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Entity.baseTick(Entity.java:895) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:442) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Entity.tick(Entity.java:848) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3132) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.tick(Player.java:288) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:835) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:346) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.Connection.tick(Connection.java:638) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:242) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1823) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:55:00] [Server thread/INFO]: SkyDeath__ died
+[20:55:03] [User Authenticator #4/INFO]: UUID of player robeeert7384 is 123e4f14-e40e-3289-9e22-66649e4a54d7
+[20:55:05] [Server thread/INFO]: robeeert7384 joined the game
+[20:55:05] [Server thread/INFO]: robeeert7384[/127.249.162.81:40939] logged in with entity id 3430 at ([world]-2.5, 139.0, 48.5)
+[20:55:05] [Craft Scheduler Thread - 69 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.249.162.81) - plugin functionality disabled for this player
+[20:55:05] [Server thread/INFO]: [ProjectKorra] Created new BendingPlayer for robeeert7384
+[20:55:05] [Server thread/INFO]: robeeert7384 has made the advancement [Getting an Upgrade]
+[20:55:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:55:32] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[20:55:39] [Server thread/INFO]: robeeert7384 issued server command: /skins
+[20:56:03] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to BuildPaste v1.11.1
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.ItemStack.getType()" because "item" is null
+	at BuildPastePlugin-1.16-1.21.6v1.12.jar/de.mistrx.buildpaste.items.PositionSelectorItem.IsPositionSelector(PositionSelectorItem.java:23) ~[BuildPastePlugin-1.16-1.21.6v1.12.jar:?]
+	at BuildPastePlugin-1.16-1.21.6v1.12.jar/de.mistrx.buildpaste.listeners.ItemClickListener.onRightClick(ItemClickListener.java:33) ~[BuildPastePlugin-1.16-1.21.6v1.12.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor543.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1942) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:56:41] [Server thread/INFO]: SkyDeath__ issued server command: /tpa Ibiisgiu
+[20:56:53] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[20:57:01] [Server thread/INFO]: SkyDeath__ issued server command: /b clear
+[20:57:04] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[20:57:19] [Server thread/INFO]: robeeert7384 issued server command: /tpa SkyDeath__
+[20:57:38] [Server thread/INFO]: robeeert7384 issued server command: /tpa Ibiisgiu
+[20:57:45] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[20:58:02] [Server thread/INFO]: SkyDeath__ has made the advancement [Acquire Hardware]
+[20:59:20] [Server thread/INFO]: robeeert7384 issued server command: /tpa SkyDeath__
+[20:59:31] [Server thread/INFO]: robeeert7384 issued server command: /tpa sk
+[20:59:55] [Server thread/INFO]: robeeert7384 issued server command: /tpa SkyDeath__
+[21:00:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:00:23] [Server thread/INFO]: robeeert7384 issued server command: /tpa Ibiisgiu
+[21:00:28] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[21:00:36] [Server thread/INFO]: SkyDeath__ was slain by robeeert7384
+[21:00:40] [Server thread/INFO]: robeeert7384 has made the advancement [Acquire Hardware]
+[21:00:43] [Server thread/INFO]: SkyDeath__ issued server command: /tpa Ibiisgiu
+[21:00:55] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[21:01:13] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Blaze
+[21:02:01] [Server thread/INFO]: SkyDeath__ was slain by robeeert7384
+[21:02:07] [Server thread/INFO]: SkyDeath__ issued server command: /tpa Ibiisgiu
+[21:02:08] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[21:02:13] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[21:03:02] [Server thread/INFO]: robeeert7384 issued server command: /spAWN
+[21:03:05] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[21:03:28] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[21:03:50] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[21:03:52] [Server thread/INFO]: robeeert7384 was shot by Lvl 12 | Skeleton
+[21:03:53] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireBlast
+[21:04:01] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireBurst
+[21:04:18] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireShield
+[21:04:44] [Server thread/INFO]: SkyDeath__ issued server command: /b clear
+[21:04:49] [Server thread/INFO]: robeeert7384 has made the advancement [Monster Hunter]
+[21:04:50] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[21:04:54] [Server thread/INFO]: robeeert7384 issued server command: /tpa
+[21:05:02] [Server thread/INFO]: SkyDeath__ issued server command: /tpa robeeert7384
+[21:05:12] [Server thread/INFO]: robeeert7384 issued server command: /tpa SkyDeath__
+[21:05:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:05:17] [Server thread/INFO]: SkyDeath__ issued server command: /spawn
+[21:05:19] [Server thread/INFO]: SkyDeath__ issued server command: /tpaccept
+[21:06:00] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Blaze
+[21:06:36] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to ProjectKorra v1.12.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.getName()" because "killer" is null
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.PKListener.onPlayerDeath(PKListener.java:1153) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor414.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:1030) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.die(ServerPlayer.java:1038) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1586) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.entity.CraftLivingEntity.damage(CraftLivingEntity.java:440) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.entity.CraftLivingEntity.damage(CraftLivingEntity.java:413) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.util.DamageHandler.damageEntity(DamageHandler.java:214) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.firebending.util.FireDamageTimer.dealFlameDamage(FireDamageTimer.java:76) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.PKListener.onEntityDamageEvent(PKListener.java:578) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor381.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1189) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Entity.baseTick(Entity.java:895) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:442) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Entity.tick(Entity.java:848) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3132) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.tick(Player.java:288) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:835) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:346) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.Connection.tick(Connection.java:638) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:242) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1823) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:06:36] [Server thread/INFO]: SkyDeath__ died
+[21:06:37] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[21:07:03] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[21:07:09] [Server thread/INFO]: SkyDeath__ issued server command: /spawn
+[21:07:14] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[21:07:18] [Server thread/WARN]: [Origins-Reborn] Task #389506 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	... 12 more
+[21:08:04] [Server thread/INFO]: SkyDeath__ issued server command: /spawn
+[21:08:34] [Server thread/INFO]: SkyDeath__ issued server command: /tpa Ibiisgiu
+[21:08:49] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[21:08:55] [Server thread/INFO]: robeeert7385 issued server command: /region flag spawn interact allow
+[21:09:19] [Server thread/INFO]: robeeert7385 issued server command: /rg flag -w "world" spawn interact allow
+[21:09:23] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[21:09:25] [Server thread/INFO]: SkyDeath__ has made the advancement [Suit Up]
+[21:09:29] [Server thread/INFO]: robeeert7385 issued server command: /rg flag -w "world" spawn interact deny
+[21:09:30] [Server thread/INFO]: SkyDeath__ issued server command: /sethome teste
+[21:09:32] [Server thread/INFO]: SkyDeath__ burned to death
+[21:09:36] [Server thread/INFO]: SkyDeath__ issued server command: /homes teste
+[21:09:52] [Server thread/INFO]: robeeert7385 issued server command: /invsee
+[21:09:53] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[21:09:58] [Server thread/INFO]: robeeert7385 issued server command: /invsee SkyDeath__
+[21:10:09] [Server thread/INFO]: robeeert7385 issued server command: /invsee Ibiisgiu
+[21:10:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[21:10:55] [Server thread/INFO]: robeeert7385 issued server command: /give robeeert7384 bread 64
+[21:11:09] [Server thread/INFO]: robeeert7385 issued server command: /give Ibiisgiu bread 128
+[21:11:41] [Server thread/INFO]: robeeert7385 issued server command: /backpack give 1 SkyDeath__
+[21:11:49] [Server thread/INFO]: robeeert7385 issued server command: /backpack give 1 Ibiisgiu
+[21:12:00] [Server thread/INFO]: robeeert7385 issued server command: /backpack give 1 robeeert7384
+[21:12:51] [Server thread/INFO]: robeeert7384 issued server command: /tpa Ibiisgiu
+[21:12:59] [Server thread/INFO]: Ibiisgiu issued server command: /tpaccept
+[21:13:23] [Server thread/INFO]: robeeert7384 has made the advancement [Stone Age]
