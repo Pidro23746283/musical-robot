@@ -28237,3 +28237,88 @@
 [15:48:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 393019 chunks (99.97%), ETA: 0:00:10, Rate: 10.9 cps, Current: -293, 309
 [15:48:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 393034 chunks (99.98%), ETA: 0:00:08, Rate: 11.4 cps, Current: -292, 308
 [15:48:34] [Server thread/INFO]: [Chunky] Task finished for world. Processed: 393129 chunks (100.00%), Total time: 10:59:59
+[15:53:21] [Server thread/INFO]: robeeert7385 issued server command: /spawn
+[15:53:47] [Server thread/INFO]: robeeert7385 issued server command: /worldborder set 100
+[15:53:47] [Server thread/INFO]: [robeeert7385: Set the world border to 100.0 block(s) wide]
+[15:54:46] [Server thread/INFO]: robeeert7385 issued server command: /worldborder set 160000
+[15:54:46] [Server thread/INFO]: [robeeert7385: Set the world border to 160000.0 block(s) wide]
+[15:54:56] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[15:55:04] [Server thread/INFO]: robeeert7385 issued server command: /backpack give 3
+[15:56:08] [Server thread/INFO]: robeeert7385 issued server command: /region flag spawn deny-spawn all
+[15:56:35] [Server thread/INFO]: robeeert7385 issued server command: /time set night
+[15:57:55] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[15:58:04] [Server thread/INFO]: robeeert7385 issued server command: /stop
+[15:58:04] [Server thread/INFO]: [robeeert7385: Stopping the server]
+[15:58:04] [Server thread/INFO]: Stopping server
+[15:58:04] [Server thread/INFO]: [WeaponMaster] Disabling WeaponMaster v1.8.0
+[15:58:04] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.30.7
+[15:58:04] [Server thread/INFO]: [CelestialSwords] Disabling CelestialSwords v1.2.9
+[15:58:04] [Server thread/INFO]: [CelestialSwords] Saved sword enchantments and recipes to configuration
+[15:58:04] [Server thread/INFO]: [CelestialSwords] AstralSwords plugin has been disabled!
+[15:58:04] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.1.1 b114
+[15:58:04] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[15:58:04] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[15:58:04] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 4ms)
+[15:58:04] [Craft Scheduler Thread - 14 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[15:58:04] [Craft Scheduler Thread - 15 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[15:58:04] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.22.4
+[15:58:04] [Server thread/INFO]: [BendingGUI] Disabling BendingGUI v1.6.2
+[15:58:04] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.6
+[15:58:04] [Server thread/INFO]: [SuperEnchants] Disabling SuperEnchants v3.2.0.1
+[15:58:04] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.1
+[15:58:04] [Server thread/INFO]: [FaithBreak] Disabling FaithBreak v1.2.1
+[15:58:04] [Server thread/INFO]: [FaithBreak] FaithBreak has been disabled!
+[15:58:04] [Server thread/INFO]: [TeaksTweaks] Disabling TeaksTweaks v2.0.6-mc1.21.1
+[15:58:04] [Server thread/INFO]: [TeaksTweaks] [INFO] Teak's Tweaks Shutting Down...
+[15:58:04] [Server thread/INFO]: [Origins-Magic] Disabling Origins-Magic v1.0.18
+[15:58:04] [Server thread/INFO]: [Origins-Fantasy] Disabling Origins-Fantasy v1.1.13
+[15:58:04] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
+[15:58:04] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.5.6-beta
+[15:58:04] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
+[15:58:04] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.8.5.0
+[15:58:04] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[15:58:04] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.4
+[15:58:04] [Server thread/INFO]: [MagicItems] Disabling MagicItems v1.2
+[15:58:04] [Server thread/INFO]: [MagicItems] Goodbye from magic items!
+[15:58:04] [Server thread/INFO]: [Terra] Disabling Terra v6.5.1-BETA+0a952cff4
+[15:58:04] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[15:58:04] [Server thread/INFO]: [GodItems] Disabling GodItems v3.0.1
+[15:58:04] [Server thread/INFO]: [GodItems] Saved player inventories: true
+[15:58:04] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[15:58:04] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[15:58:04] [Server thread/INFO]: [ProjectKorra] Disabling ProjectKorra v1.12.0
+[15:58:04] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
+[15:58:04] [Server thread/INFO]: [Origins-Reborn] Disabling Origins-Reborn v2.10.5
+[15:58:04] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[15:58:04] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:58:04] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:58:04] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:58:04] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.9
+[15:58:04] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[15:58:04] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:58:04] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[15:58:04] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
+[15:58:04] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:58:04] [Server thread/INFO]: Saving players
+[15:58:04] [Server thread/INFO]: robeeert7385 lost connection: Server closed
+[15:58:04] [Server thread/INFO]: robeeert7385 left the game
+[15:58:04] [Server thread/INFO]: Saving worlds
+[15:58:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:58:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:58:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:58:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:58:04] [Server thread/INFO]: [ChunkHolderManager] Saved 40 block chunks, 142 entity chunks, 0 poi chunks in world 'world' in 0.18s
+[15:58:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:58:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:58:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:58:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:58:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[15:58:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:58:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:58:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:58:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:58:09] [Server thread/INFO]: [ChunkHolderManager] Saved 238 block chunks, 51 entity chunks, 0 poi chunks in world 'world_the_end' in 0.75s
+[15:58:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:58:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:58:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:58:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
