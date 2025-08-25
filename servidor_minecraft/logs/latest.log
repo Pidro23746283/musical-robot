@@ -576,3 +576,186 @@ Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
 [20:43:09] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
 [20:43:23] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Illumination
 [20:43:33] [Server thread/INFO]: SkyDeath__ issued server command: /b bind WallOfFire
+[20:43:47] [Server thread/INFO]: SkyDeath__ issued server command: /b clear
+[20:44:09] [Server thread/INFO]: SkyDeath__ issued server command: /b choose
+[20:44:13] [Server thread/INFO]: SkyDeath__ issued server command: /b choose Air SkyDeath__
+[20:44:27] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Blaze
+[20:44:42] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[20:44:58] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to ProjectKorra v1.12.0
+java.lang.NullPointerException: Cannot invoke "org.bukkit.entity.Player.getName()" because "killer" is null
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.PKListener.onPlayerDeath(PKListener.java:1153) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor414.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:1030) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.die(ServerPlayer.java:1038) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1586) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.entity.CraftLivingEntity.damage(CraftLivingEntity.java:440) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.entity.CraftLivingEntity.damage(CraftLivingEntity.java:413) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.util.DamageHandler.damageEntity(DamageHandler.java:214) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.firebending.util.FireDamageTimer.dealFlameDamage(FireDamageTimer.java:76) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at ProjectKorra-1.12.0 (1).jar/com.projectkorra.projectkorra.PKListener.onEntityDamageEvent(PKListener.java:578) ~[ProjectKorra-1.12.0 (1).jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor381.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:277) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1189) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1092) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1247) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2327) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.hurt(LivingEntity.java:1488) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.hurt(Player.java:1002) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.hurt(ServerPlayer.java:1205) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Entity.baseTick(Entity.java:895) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:442) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.Entity.tick(Entity.java:848) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3132) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.world.entity.player.Player.tick(Player.java:288) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:835) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:346) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.Connection.tick(Connection.java:638) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:242) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1823) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:45:00] [Server thread/INFO]: SkyDeath__ died
+[20:45:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:45:50] [Server thread/INFO]: SkyDeath__ issued server command: /skills
+[20:46:23] [Server thread/INFO]: robeeert7385 issued server command: /spawn SkyDeath__
+[20:46:30] [Server thread/INFO]: robeeert7385 issued server command: /spawn SkyDeath__
+[20:46:36] [Server thread/INFO]: robeeert7385 issued server command: /spawn SkyDeath__
+[20:46:44] [Server thread/INFO]: robeeert7385 issued server command: /spawn SkyDeath__
+[20:47:06] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:47:12] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:47:25] [Server thread/WARN]: [Origins-Reborn] Task #121971 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	... 12 more
+[20:47:50] [Server thread/INFO]: robeeert7385 issued server command: /deop robeeert7385
+[20:47:50] [Server thread/INFO]: [robeeert7385: Made robeeert7385 no longer a server operator]
+[20:48:01] [Server thread/INFO]: robeeert7385 issued server command: /op robeeert7385
+[20:48:01] [Server thread/INFO]: [robeeert7385: Made robeeert7385 a server operator]
+[20:48:17] [Server thread/INFO]: SkyDeath__ issued server command: /spawn
+[20:48:38] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:48:43] [Server thread/WARN]: [Origins-Reborn] Task #134059 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	... 12 more
+[20:48:45] [Server thread/INFO]: robeeert7385 issued server command: /invsee
+[20:48:51] [Server thread/INFO]: robeeert7385 issued server command: /invsee SkyDeath__
+[20:49:06] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:49:13] [Server thread/WARN]: [Origins-Reborn] Task #138320 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	... 12 more
+[20:49:19] [Server thread/INFO]: robeeert7385 issued server command: /invsee SkyDeath__
+[20:50:15] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:50:49] [Server thread/INFO]: robeeert7385 issued server command: /invsee
+[20:50:57] [Server thread/INFO]: robeeert7385 issued server command: /invsee SkyDeath__
+[20:50:59] [Server thread/INFO]: SkyDeath__ issued server command: /spawn
+[20:51:14] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:51:17] [Server thread/WARN]: [Origins-Reborn] Task #157062 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	... 12 more
+[20:51:23] [Server thread/INFO]: robeeert7385 issued server command: /spawn Ibiisgiu
+[20:52:01] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[20:52:14] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:53:12] [Server thread/INFO]: SkyDeath__ issued server command: /spawn
+[20:53:25] [Server thread/INFO]: robeeert7385 issued server command: /spawn all
+[20:53:30] [Server thread/INFO]: robeeert7385 issued server command: /spawn SkyDeath__
+[20:53:32] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Blaze
+[20:53:34] [Server thread/INFO]: robeeert7385 issued server command: /spawn Ibiisgiu

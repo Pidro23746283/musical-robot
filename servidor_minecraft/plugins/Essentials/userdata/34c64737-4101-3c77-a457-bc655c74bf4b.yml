@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1756155192245
   lastheal: 0
   mute: 0
   jail: 0
@@ -22,9 +22,9 @@ money: '0'
 lastlocation:
   world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
   world-name: world
-  x: 2.5
-  y: 146.0
-  z: 49.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 10.265594026544663
+  y: 74.49520087700593
+  z: 83.13000414702053
+  yaw: -88.05003356933594
+  pitch: 34.8001823425293
 last-account-name: SkyDeath__
