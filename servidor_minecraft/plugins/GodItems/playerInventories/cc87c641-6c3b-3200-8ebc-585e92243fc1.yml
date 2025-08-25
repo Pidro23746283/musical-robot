@@ -1,0 +1,26 @@
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: COMPASS
+      display-name: '{"text":"","extra":[{"text":"Configure Bending","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Right click to configure your bending!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      PublicBukkitValues: |-
+        {
+            "bendinggui:item": 0b
+        }
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: QUARTZ_BRICKS

@@ -1,0 +1,268 @@
+AvatarState:
+  Enabled: true
+  Cooldown: 7200000
+  Duration: 480000
+  PlaySound: true
+  ShowParticles: true
+  GlowEnabled: false
+  Sound:
+    Sound: BLOCK_BEACON_ACTIVATE
+    Volume: 1
+    Pitch: 1.5
+  CanBeChiblocked: false
+LowHealth:
+  Enabled: true
+  Threshold: 4
+  BoostHealth:
+    Enabled: true
+    Amount: 2
+    YellowHearts: false
+  PreventDeath: false
+PotionEffects:
+  Regeneration: 4
+  Speed: 3
+  Resistance: 3
+  Fire_Resistance: 3
+Abilities:
+  _All:
+    Damage: x2.0
+    Cooldown: x0.5
+    ChargeTime: x0.5
+    Duration: x2.0
+    Range: x2.0
+    SelectRange: x3.0
+  Air:
+    _All:
+      Knockback: x1.5
+      Range: x1.5
+      Speed: x1.2
+      Cooldown: x0.5
+      SelectRange: x3.0
+    AirBlast:
+      Knockback: x2.5
+      SelfPush: x2.0
+      Cooldown: 200
+    AirSpout:
+      Height: 40
+    AirSuction:
+      Push: 3.5
+    AirSwipe:
+      Cooldown: 1000
+      Damage: x2.0
+      Knockback: x2.0
+      Range: x1.6
+      Radius: x0.5
+    AirBurst:
+      ChargeTime: 1000
+      Damage: 3
+    AirShield:
+      IsToggle: true
+      Knockback: 2.5
+    Suffocate:
+      Cooldown: 0
+      ChargeTime: 1000
+      Damage: 3
+      Range: 16
+    AirStream:
+      Range: 60
+      EntityCarryHeight: x1.5
+      EntityCarryDuration: 20000
+      Cooldown: 0
+    AirSweep:
+      Damage: x2.0
+      Cooldown: 0
+      Range: 21
+      Knockback: 4
+    Twister:
+      Range: x1.5
+      Height: '+6'
+      Cooldown: 0
+  Earth:
+    _All:
+      Width: x4.0
+      Height: x2.0
+      SelectRange: x5.0
+      Damage: x2.0
+      Speed: x1.5
+      Range: x1.5
+    Catapult:
+      MaxDistance: 80
+      Cooldown: 0
+    LavaFlow:
+      ShiftCooldown: 1500
+      ClickLavaCooldown: 1500
+      ClickSpeed: x2.5
+      ShiftSpeed: x2.0
+      ClickLavaStartDelay: 500
+      ClickRange: x2.0
+      ShiftPlatformRadius: 2
+      ClickRadius: 12
+      ShiftRadius: 20
+    MetalClips:
+      Cooldown: 2000
+      Range: x3.0
+      CrushDamage: x2.5
+    RaiseEarth:
+      Height: x2.0
+      Width: x4.0
+      Speed: x0.8
+    Collapse:
+      Height: x2.0
+      Speed: x0.8
+      Radius: 15
+    EarthArmor:
+      Cooldown: 2000
+      GoldHearts: 6
+    EarthBlast:
+      Cooldown: 200
+      Damage: x2.0
+    EarthGrab:
+      Cooldown: 0
+      Height: 6
+      Radius: 6
+    Shockwave:
+      Range: x1.5
+      Cooldown: 0
+      ChargeTime: 500
+      Damage: 5
+      Knockback: x2.0
+    EarthSmash:
+      SelectRange: 16
+      GrabRange: 16
+      ChargeTime: 1000
+      Cooldown: 0
+      MinimumDamage: 3
+      MaximumDamage: 7
+      Knockback: x1.5
+      FlightSpeed: 1.0
+      FlightTimer: '+6000'
+      ShootRange: 45
+    EarthTunnel:
+      Radius: x3.0
+      Speed: x10.0
+      Range: x2.0
+  Fire:
+    _All:
+      Damage: x2.0
+      Cooldown: x0.5
+      ChargeTime: x0.5
+      Duration: x2.0
+      Range: x2.0
+      Speed: x1.5
+    FireJet:
+      IsToggle: true
+    Blaze:
+      Arc: x1.8
+    FireShield:
+      ShieldRadius: x3.0
+      DiscRadius: x3.0
+      ShieldCooldown: 0
+      DiscCooldown: 500
+      ShieldDuration: x2.5
+      DiscDuration: x2.5
+    JetBlast:
+      Cooldown: 0
+      Speed: x1.5
+    JetBlaze:
+      Cooldown: 0
+      Speed: x1.5
+    Lightning:
+      ChargeTime: 500
+      Damage: x2.0
+      MaxChainArcs: x4
+      Cooldown: 0
+      Range: 60
+    FireBurst:
+      ChargeTime: 100
+      Damage: x1.5
+      Cooldown: 0
+    FireBlast:
+      ChargeTime: x0.25
+      Speed: x2.0
+    FireKick:
+      Damage: x2.0
+      Range: x2.0
+    FireSpin:
+      Cooldown: 0
+      Damage: x1.8
+      Range: x2.0
+      Knockback: x1.0
+    FireWheel:
+      Damage: 6
+      Range: x2.5
+      Height: 3
+      Speed: x1.2
+      FireTicks: 4
+    WallOfFire:
+      Height: x1.6
+      Width: x2.5
+      Duration: x1.5
+      FireTicks: 2
+      Cooldown: x1.0
+  Water:
+    _All:
+      Damage: x1.5
+      Cooldown: x0.1
+      ChargeTime: x0.5
+      Duration: x2.0
+      Range: x2.0
+      SelectRange: x3.0
+    OctopusForm:
+      AttackRange: 3
+      Radius: x2.0
+      Damage: x2.0
+      Knockback: x3.0
+    Surge:
+      WallRadius: x2.0
+      Radius: x2.0
+      WallRange: 8
+    Torrent:
+      InitialDamage: 5
+      FreezeRadius: x2.0
+      SuccessiveDamage: x1.5
+      MaxHits: x1.5
+      Knockback: x1.5
+    WaterManipulation:
+      Damage: 5
+    PhaseChange:
+      FreezeRadius: x3.0
+      FreezeDepth: 2
+      MeltCooldown: 500
+      MeltRadius: x3.0
+      MeltSpeed: x5.0
+      SelectRange: x3.0
+      ControlRadius: x3.0
+    IceBlast:
+      Damage: 4
+      Range: 45
+      Cooldown: 0
+    IceBullet:
+      Cooldown: 0
+      Damage: 5
+      Range: 45
+      MaxShots: 45
+      ShotCooldown: 100
+      ShootTime: 15000
+    IceSpike:
+      Damage: x1.5
+      Range: x1.5
+      Knockup: '+0.3'
+      Height: '+2'
+      NumberOfSpikes: x5.0
+      SlowPotency: 3
+      SlowCooldown: 0
+      Cooldown: 0
+      SlowDuration: 90
+      Radius: x2.5
+    IceWave:
+      Damage: 6
+      Cooldown: 0
+    WaterSpout:
+      Height: 40
+      Cooldown: 0
+      ChargeTime: 0
+      FlightDuration: x2.0
+    WaterBubble:
+      Radius: x1.5
+      ClickDuration: x10.0
+      Speed: x1.5
