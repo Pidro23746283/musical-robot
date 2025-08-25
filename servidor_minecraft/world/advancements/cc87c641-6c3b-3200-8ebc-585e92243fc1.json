@@ -49,6 +49,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-08-25 13:29:06 +0000",
       "minecraft:creeper": "2025-08-25 04:00:03 +0000"
     },
     "done": false
@@ -296,6 +297,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2025-08-25 04:20:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-08-25 13:29:06 +0000"
     },
     "done": true
   },
