@@ -506,3 +506,73 @@
 [20:29:21] [Server thread/INFO]: Ibiisgiu joined the game
 [20:29:21] [Server thread/INFO]: Ibiisgiu[/127.22.172.59:46677] logged in with entity id 442 at ([world]1.286064314580818, 137.0625, 57.59306601400065)
 [20:29:21] [Craft Scheduler Thread - 26 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.22.172.59) - plugin functionality disabled for this player
+[20:34:00] [Server thread/INFO]: Ibiisgiu issued server command: /skins
+[20:34:42] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:36:51] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[20:38:14] [User Authenticator #3/INFO]: UUID of player SkyDeath__ is 34c64737-4101-3c77-a457-bc655c74bf4b
+[20:38:17] [Server thread/INFO]: SkyDeath__ joined the game
+[20:38:17] [Server thread/INFO]: SkyDeath__[/127.73.103.56:43973] logged in with entity id 1309 at ([world]2.5, 146.0, 49.5)
+[20:38:17] [Craft Scheduler Thread - 35 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.73.103.56) - plugin functionality disabled for this player
+[20:38:17] [Server thread/INFO]: [ProjectKorra] Created new BendingPlayer for SkyDeath__
+[20:38:17] [Server thread/INFO]: SkyDeath__ has made the advancement [Getting an Upgrade]
+[20:39:04] [Server thread/WARN]: [Origins-Reborn] Task #59307 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 12 more
+[20:39:48] [Server thread/INFO]: SkyDeath__ issued server command: /ec
+[20:39:48] [Server thread/INFO]: [Essentials] SkyDeath__ was denied access to command.
+[20:39:49] [Server thread/INFO]: robeeert7385 issued server command: /invsee SkyDeath__
+[20:40:00] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:40:08] [Server thread/WARN]: [Origins-Reborn] Task #67359 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	... 12 more
+[20:41:10] [Server thread/INFO]: robeeert7385 issued server command: /origin orb
+[20:41:16] [Server thread/WARN]: [Origins-Reborn] Task #75250 for Origins-Reborn v2.10.5 generated an exception
+java.lang.NoClassDefFoundError: net/milkbowl/vault/economy/Economy
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.util.VaultHook.has(VaultHook.java:25) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:203) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OriginSwapper.openOriginSwapper(OriginSwapper.java:85) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at Origins-Reborn-2.10.5-all.jar/com.starshootercity.OrbOfOrigin.lambda$onPlayerInteract$0(OrbOfOrigin.java:144) ~[Origins-Reborn-2.10.5-all.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.milkbowl.vault.economy.Economy
+	... 12 more
+[20:41:39] [Server thread/INFO]: robeeert7385 issued server command: /invsee SkyDeath__
+[20:42:24] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[20:43:09] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[20:43:23] [Server thread/INFO]: SkyDeath__ issued server command: /b bind Illumination
+[20:43:33] [Server thread/INFO]: SkyDeath__ issued server command: /b bind WallOfFire
