@@ -1,104 +1,106 @@
-[17:00:48] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[17:00:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[17:00:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[17:00:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 30 plugins
-[17:00:51] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[20:23:18] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[20:23:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[20:23:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:23:25] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/DeathCoords.jar'...
+[20:23:27] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DeathCoords.jar' in 1510ms.
+[20:23:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 31 plugins
+[20:23:28] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - SuperEnchants (3.2.0.1)
-[17:00:51] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (29):
- - AuraSkills (2.3.6), AxGraves (1.22.4), BackpackPlus (1.5.6-beta), BendingGUI (1.6.2), BuildPaste (1.11.1), CelestialSwords (1.2.9), Chunky (1.4.40), ClearLag (3.2.2), Essentials (2.21.1), EssentialsSpawn (2.21.1), FaithBreak (1.2.1), GodItems (3.0.1), ImageFrame (1.8.5.0), InvSeePlusPlus (0.30.7), LevelledMobs (4.3.1.1 b114), LuckPerms (5.5.0), MagicItems (1.2), Orebfuscator (5.5.4), Origins-Fantasy (1.1.13), Origins-Magic (1.0.18), Origins-Reborn (2.10.5), ProjectKorra (1.12.0), ProtocolLib (5.4.0), SkinsRestorer (15.7.9), TeaksTweaks (2.0.6-mc1.21.1), Terra (6.5.1-BETA+0a952cff4), WeaponMaster (1.8.0), WorldEdit (7.3.10-beta-01+cb9fd58), WorldGuard (7.0.12+829a4a4)
-[17:00:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Blindness' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'HealthSteal' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bleed' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lightning' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Teleport' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Jetpack' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Explosive' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Excavator' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Autosmelt' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Freeze' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Confusion' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Multishoot' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dash' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bloodlust' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Shockwave' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Veinminer' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'XPBoost' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Enlightened' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Enderaura' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Frostbite' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Leap' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Speed' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Magnet' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Growth' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Detonate' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Backstabber' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Piercing' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Deflecting' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bait' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Angler' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Abiding' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Disarm' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Archer' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Farmer' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Decapitation' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dismantle' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Famine' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Spotlight' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Feast' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Updraft' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lavawalker' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Doublestrike' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Timber' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Missile' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Critical' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Inflame' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Nightowl' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Headshot' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Arrowstorm' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Hook' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Gravity' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Adrenaline' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Resilience' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Coward' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Weaken' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Withering' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Heavy' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lightweight' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Blastoff' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Flippers' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Harvester' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'DragonHunter' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Ascend' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'HellHunter' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Cubism' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Vanish' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dodge' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Predator' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Slaughter' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'SkullCrusher' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Ninja' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Thanos' registered successfully.
-[17:01:00] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Consume' registered successfully.
-[17:01:01] [ServerMain/INFO]: Loaded 1290 recipes
-[17:01:02] [ServerMain/INFO]: Loaded 1399 advancements
-[17:01:02] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[17:01:02] [Server thread/INFO]: Loading properties
-[17:01:02] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[17:01:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[17:01:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:01:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:01:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[17:01:03] [Server thread/INFO]: Default game type: SURVIVAL
-[17:01:03] [Server thread/INFO]: Generating keypair
-[17:01:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:01:03] [Server thread/INFO]: Using epoll channel type
-[17:01:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:01:03] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[17:01:05] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
-[17:01:05] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
-[17:01:05] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
-[17:01:06] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 37 Terra addons:
+[20:23:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (30):
+ - AuraSkills (2.3.6), AxGraves (1.22.4), BackpackPlus (1.5.6-beta), BendingGUI (1.6.2), BuildPaste (1.11.1), CelestialSwords (1.2.9), Chunky (1.4.40), ClearLag (3.2.2), DeathCoords (V1.0), Essentials (2.21.1), EssentialsSpawn (2.21.1), FaithBreak (1.2.1), GodItems (3.0.1), ImageFrame (1.8.5.0), InvSeePlusPlus (0.30.7), LevelledMobs (4.3.1.1 b114), LuckPerms (5.5.0), MagicItems (1.2), Orebfuscator (5.5.4), Origins-Fantasy (1.1.13), Origins-Magic (1.0.18), Origins-Reborn (2.10.5), ProjectKorra (1.12.0), ProtocolLib (5.4.0), SkinsRestorer (15.7.9), TeaksTweaks (2.0.6-mc1.21.1), Terra (6.5.1-BETA+0a952cff4), WeaponMaster (1.8.0), WorldEdit (7.3.10-beta-01+cb9fd58), WorldGuard (7.0.12+829a4a4)
+[20:23:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Blindness' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'HealthSteal' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bleed' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lightning' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Teleport' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Jetpack' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Explosive' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Excavator' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Autosmelt' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Freeze' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Confusion' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Multishoot' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dash' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bloodlust' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Shockwave' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Veinminer' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'XPBoost' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Enlightened' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Enderaura' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Frostbite' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Leap' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Speed' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Magnet' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Growth' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Detonate' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Backstabber' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Piercing' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Deflecting' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Bait' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Angler' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Abiding' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Disarm' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Archer' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Farmer' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Decapitation' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dismantle' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Famine' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Spotlight' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Feast' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Updraft' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lavawalker' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Doublestrike' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Timber' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Missile' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Critical' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Inflame' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Nightowl' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Headshot' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Arrowstorm' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Hook' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Gravity' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Adrenaline' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Resilience' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Coward' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Weaken' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Withering' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Heavy' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Lightweight' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Blastoff' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Flippers' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Harvester' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'DragonHunter' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Ascend' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'HellHunter' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Cubism' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Vanish' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Dodge' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Predator' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Slaughter' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'SkullCrusher' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Ninja' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Thanos' registered successfully.
+[20:23:39] [ServerMain/INFO]: [SuperEnchants] Custom enchantment 'Consume' registered successfully.
+[20:23:40] [ServerMain/INFO]: Loaded 1290 recipes
+[20:23:41] [ServerMain/INFO]: Loaded 1399 advancements
+[20:23:41] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[20:23:41] [Server thread/INFO]: Loading properties
+[20:23:41] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:23:42] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:23:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:23:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:23:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:23:42] [Server thread/INFO]: Default game type: SURVIVAL
+[20:23:42] [Server thread/INFO]: Generating keypair
+[20:23:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:23:43] [Server thread/INFO]: Using epoll channel type
+[20:23:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:23:43] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[20:23:45] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[20:23:45] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[20:23:45] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[20:23:46] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 37 Terra addons:
         - biome-provider-extrusion@1.0.0-BETA+0a952cff4
         - biome-provider-image@1.0.1-BETA+0a952cff4
         - biome-provider-image-v2@1.0.1-BETA+0a952cff4
@@ -136,405 +138,371 @@
         - terra@1.0.0
         - terra-bukkit@1.0.0
         - terrascript-function-sampler@1.0.0-BETA+0a952cff4
-[17:01:06] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
-[17:01:06] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
-[17:01:06] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
-[17:01:06] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-[17:01:06] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[17:01:06] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[17:01:06] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
-[17:01:06] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loading 4 libraries... please wait
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/junit/junit/4.10/junit-4.10.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar
-[17:01:07] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar
-[17:01:10] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
-[17:01:13] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@21c396c3]
-[17:01:13] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[17:01:14] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
-[17:01:14] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
-[17:01:14] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[17:01:14] [Server thread/INFO]: [Origins-Reborn] Loading server plugin Origins-Reborn v2.10.5
-[17:01:14] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
-[17:01:14] [Server thread/INFO]: [ProjectKorra] Loading server plugin ProjectKorra v1.12.0
-[17:01:14] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[17:01:14] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
-[17:01:14] [Server thread/INFO]: [GodItems] Loaded WorldGuard features.
-[17:01:14] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
-[17:01:14] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.5.1-BETA+0a952cff4
-[17:01:14] [Server thread/INFO]: [MagicItems] Loading server plugin MagicItems v1.2
-[17:01:14] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.4
-[17:01:14] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.8.5.0
-[17:01:14] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
-[17:01:14] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
-[17:01:14] [Server thread/INFO]: [Origins-Fantasy] Loading server plugin Origins-Fantasy v1.1.13
-[17:01:14] [Server thread/INFO]: [Origins-Magic] Loading server plugin Origins-Magic v1.0.18
-[17:01:14] [Server thread/INFO]: [TeaksTweaks] Loading server plugin TeaksTweaks v2.0.6-mc1.21.1
-[17:01:14] [Server thread/INFO]: [FaithBreak] Loading server plugin FaithBreak v1.2.1
-[17:01:14] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1
-[17:01:14] [Server thread/INFO]: [SuperEnchants] Loading server plugin SuperEnchants v3.2.0.1
-[17:01:14] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.6
-[17:01:14] [Server thread/INFO]: [BendingGUI] Loading server plugin BendingGUI v1.6.2
-[17:01:14] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.22.4
-[17:01:14] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.1.1 b114
-[17:01:14] [Server thread/INFO]: [LevelledMobs] Loading commands
-[17:01:15] [Server thread/INFO]: [CelestialSwords] Loading server plugin CelestialSwords v1.2.9
-[17:01:15] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.30.7
-[17:01:15] [Server thread/INFO]: [WeaponMaster] Loading server plugin WeaponMaster v1.8.0
-[17:01:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:01:15] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
-[17:01:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:01:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:01:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[17:01:18] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[17:01:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
-[17:01:20] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[17:01:21] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[17:01:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[17:01:22] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[17:01:22] [Server thread/INFO]:         __    
-[17:01:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[17:01:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:01:22] [Server thread/INFO]: 
-[17:01:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:01:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:01:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:01:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:01:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2130ms)
-[17:01:24] [Server thread/INFO]: [Terra] Enabling Terra v6.5.1-BETA+0a952cff4
-[17:01:24] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.21.1 with server implementation Paper.
-[17:01:24] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
-[17:01:24] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: origen-v2.2.0.zip
-[17:01:27] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "ORIGEN:ORIGEN"
-[17:01:27] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
-[17:01:27] [Server thread/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
-[17:01:27] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
-[17:01:27] [Server thread/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
-[17:01:27] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
-[17:01:27] [Server thread/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
-[17:01:28] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "ORIGEN:ORIGEN" v1.0.0 by Astrash, Sancires, Aureus, Rearth in 4737.50538ms.
-[17:01:29] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
-[17:01:29] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
-[17:01:31] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.4 by Astrash, Sancires, Aureus in 1945.790716ms.
-[17:01:31] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
-[17:01:31] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.AwfulBukkitHacks] Hacking biome registry...
-[17:01:31] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.AwfulBukkitHacks] Doing tag garbage....
-[17:01:32] [Server thread/INFO]: [SuperEnchants] Enabling SuperEnchants v3.2.0.1
-[17:01:32] [Server thread/INFO]: [SuperEnchants] Loading SuperEnchants v3.2.0.1 by Aznos
-[17:01:32] [Server thread/INFO]: [SuperEnchants] -------------------------------------
-[17:01:32] [Server thread/INFO]: [SuperEnchants] If you'd like to support SuperEnchants and you find it useful, please consider donating at: https://buymeacoffee.com/aznos
-[17:01:32] [Server thread/INFO]: [SuperEnchants] -------------------------------------
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_en.yml to plugins/SuperEnchants/lang_en.yml because lang_en.yml already exists.
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_de.yml to plugins/SuperEnchants/lang_de.yml because lang_de.yml already exists.
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_pt.yml to plugins/SuperEnchants/lang_pt.yml because lang_pt.yml already exists.
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_es.yml to plugins/SuperEnchants/lang_es.yml because lang_es.yml already exists.
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_fr.yml to plugins/SuperEnchants/lang_fr.yml because lang_fr.yml already exists.
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_nl.yml to plugins/SuperEnchants/lang_nl.yml because lang_nl.yml already exists.
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_ru.yml to plugins/SuperEnchants/lang_ru.yml because lang_ru.yml already exists.
-[17:01:32] [Server thread/WARN]: [SuperEnchants] Could not save lang_pirate.yml to plugins/SuperEnchants/lang_pirate.yml because lang_pirate.yml already exists.
-[17:01:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:01:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:01:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:01:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:01:32] [Server thread/INFO]: Preparing level "world"
-[17:01:33] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.NMSInjectListener] Preparing to take over the world: world
-[17:01:33] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.NMSInjectListener] Successfully injected into world.
-[17:01:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:01:36] [Server thread/INFO]: Time elapsed: 2279 ms
-[17:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:01:36] [Server thread/INFO]: Time elapsed: 311 ms
-[17:01:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:01:36] [Server thread/INFO]: Time elapsed: 230 ms
-[17:01:36] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[17:01:37] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[17:01:37] [Server thread/INFO]: [WorldGuard] Loading region data...
-[17:01:39] [Server thread/INFO]: [Origins-Reborn] Enabling Origins-Reborn v2.10.5
-[17:01:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
-[17:01:43] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[17:01:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:01:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[17:01:43] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[17:01:44] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[17:01:44] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[17:01:44] [Server thread/INFO]: [Essentials] Using locale en
-[17:01:45] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:01:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:01:45] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[17:01:45] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[17:01:45] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[17:01:45] [Server thread/INFO]: [ProjectKorra] Enabling ProjectKorra v1.12.0
-[17:01:49] [Server thread/INFO]: [ProjectKorra] Establishing SQLite Connection...
-[17:01:49] [Server thread/INFO]: [ProjectKorra] [SQLite] Connection established!
-[17:01:49] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[17:01:49] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[17:01:49] [Server thread/INFO]: [ClearLag] Loading modules...
-[17:01:49] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
-[17:01:49] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[17:01:49] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[17:01:49] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[17:01:49] [Thread-14/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
-[17:01:49] [Thread-14/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-[17:01:49] [Thread-14/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
-[17:01:49] [Thread-14/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
-[17:01:49] [Thread-14/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
-[17:01:49] [Thread-14/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[17:01:49] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
-[17:01:49] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
-[17:01:49] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
-[17:01:50] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
-[17:01:50] [Server thread/INFO]: [MagicItems] Enabling MagicItems v1.2
-[17:01:50] [Server thread/INFO]: [MagicItems] All names loaded!
-[17:01:50] [Server thread/INFO]: [MagicItems] If any warnings showed up, you could try to delete the config.yml file so new one could generate.
-[17:01:50] [Server thread/INFO]: [MagicItems] Hello from magic items!
-[17:01:50] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.4
-[17:01:54] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.8.5.0
-[17:02:03] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[17:02:03] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
-[17:02:03] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
-[17:02:03] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
-[17:02:03] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
-[17:02:03] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
-[17:02:03] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
-[17:02:03] [Server thread/INFO]: [BackpackPlus] Language used: eng
-[17:02:04] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
-[17:02:04] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.1.13
-[17:02:05] [Server thread/INFO]: [Origins-Magic] Enabling Origins-Magic v1.0.18
-[17:02:05] [Server thread/INFO]: [TeaksTweaks] Enabling TeaksTweaks v2.0.6-mc1.21.1
-[17:02:05] [Server thread/INFO]: [TeaksTweaks] [INFO] Updated Plugin Config
-[17:02:06] [Server thread/INFO]: [TeaksTweaks] [INFO] Loaded language file: en.json
-[17:02:06] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /teakstweaks
-[17:02:06] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /mechanics
-[17:02:06] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /packlist
-[17:02:06] [Server thread/INFO]: [TeaksTweaks] [INFO]  
-[17:02:06] [Server thread/INFO]: [TeaksTweaks] [INFO] Teak's Tweaks v2.0.6-mc1.21.1 has started!
-[17:02:06] [Server thread/INFO]: [TeaksTweaks] [INFO]  
-[17:02:06] [Server thread/INFO]: [FaithBreak] Enabling FaithBreak v1.2.1
-[17:02:07] [Server thread/INFO]: [FaithBreak] FaithBreak has been enabled! Debug mode: OFF
-[17:02:07] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1
-[17:02:07] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[17:02:07] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.6
-[17:02:09] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[17:02:11] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
-[17:02:11] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
-[17:02:11] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
-[17:02:11] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 142 ms
-[17:02:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[17:02:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[17:02:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[17:02:11] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[17:02:12] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[17:02:12] [Server thread/INFO]: [BendingGUI] Enabling BendingGUI v1.6.2
-[17:02:13] [Server thread/INFO]: [BendingGUI] BendingGUI Fully Loaded!
-[17:02:13] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.22.4
-[17:02:14] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.1.1 b114
-[17:02:14] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[17:02:14] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[17:02:14] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
-[17:02:14] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.1 for nametag support
-[17:02:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[17:02:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[17:02:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[17:02:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[17:02:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[17:02:15] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[17:02:15] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[17:02:15] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[17:02:15] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[17:02:15] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[17:02:15] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 847ms)
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Enabling CelestialSwords v1.2.9
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Checking plugin dependencies...
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Checking for CelestialSwords updates...
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Current version: 1.2.9
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Latest version available: 1.2.9
-[17:02:15] [Server thread/INFO]: [CelestialSwords] CelestialSwords is up to date.
-[17:02:15] [Server thread/WARN]: [CelestialSwords] Required dependency '' is missing. Attempting to download and install...
-[17:02:15] [Server thread/WARN]: [CelestialSwords] Failed to fetch version info for '': HTTP 404
-[17:02:15] [Server thread/ERROR]: [CelestialSwords] Failed to fetch version information for '' from Modrinth.
-[17:02:15] [Server thread/INFO]: [CelestialSwords] FaithBreak is already loaded and enabled. Skipping reinstallation to avoid conflicts.
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Current FaithBreak version: 1.2.1
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Loaded sword enchantments and recipes from configuration
-[17:02:15] [Server thread/INFO]: [CelestialSwords] Loaded sword data for 0 players and 0 global swords
-[17:02:15] [Server thread/INFO]: [CelestialSwords] AstralSwords plugin has been enabled!
-[17:02:15] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.30.7
-[17:02:16] [Server thread/INFO]: [WeaponMaster] Enabling WeaponMaster v1.8.0
-[17:02:16] [Server thread/INFO]: [WeaponMaster] --------------------
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #######################################################################################################################
-[17:02:16] [Server thread/INFO]: [WeaponMaster] # ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌#
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌     ▐░▌     ▐░▌          ▐░▌       ▐░▌     ▐░▌     ▐░▌          #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░▌ ▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌     ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌     ▐░▌     ▐░▌          #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░▌▐░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░▌          #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░▌ ▀▀▀▀▀▀█░▌▐░█▀▀▀▀█░█▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌     ▐░▌     ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀█░█▀▀      ▐░▌     ▐░▌          #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░▌       ▐░▌▐░▌     ▐░▌  ▐░▌          ▐░▌       ▐░▌     ▐░▌     ▐░▌          ▐░▌     ▐░▌       ▐░▌     ▐░▌          #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░█▄▄▄▄▄▄▄█░▌▐░▌      ▐░▌ ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌     ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌      ▐░▌  ▄▄▄▄█░█▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌     ▐░▌     ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌#
-[17:02:16] [Server thread/INFO]: [WeaponMaster] # ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ #
-[17:02:16] [Server thread/INFO]: [WeaponMaster] #######################################################################################################################
-[17:02:16] [Server thread/INFO]: [WeaponMaster] 
-[17:02:16] [Server thread/INFO]: [WeaponMaster] WeaponMaster
-[17:02:16] [Server thread/INFO]: [WeaponMaster] 
-[17:02:16] [Server thread/INFO]: [WeaponMaster] Copyright (C) greateric 2021-present. Licensed under GPL v3.
-[17:02:16] [Server thread/INFO]: [WeaponMaster] Initializing WeaponMaster by greateric
-[17:02:16] [Server thread/INFO]: [WeaponMaster] --------------------
-[17:02:16] [Server thread/INFO]: [WeaponMaster] Finished setting up! [356 ms]
-[17:02:17] [Server thread/INFO]: [spark] Starting background profiler...
-[17:02:18] [Server thread/INFO]: Done preparing level "world" (45.935s)
-[17:02:18] [Server thread/INFO]: Running delayed init tasks
-[17:02:18] [Craft Scheduler Thread - 5 - ProjectKorra/INFO]: [ProjectKorra] Checking for updates...!
-[17:02:18] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
-[17:02:18] [Craft Scheduler Thread - 5 - ProjectKorra/INFO]: [ProjectKorra] You are running the latest version of ProjectKorra
-[17:02:18] [Craft Scheduler Thread - 10 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[17:02:18] [Craft Scheduler Thread - 10 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
-[17:02:18] [Craft Scheduler Thread - 10 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[17:02:18] [Craft Scheduler Thread - 19 - LevelledMobs/WARN]: [LevelledMobs] LevelledMobs Update Checker Notice:
-[17:02:18] [Craft Scheduler Thread - 19 - LevelledMobs/WARN]: [LevelledMobs] Your LevelledMobs version is outdated! Please update to v4.3.2.1 as soon as possible. (You're running v4.3.1.1)
-[17:02:19] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
-[17:02:19] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[17:02:19] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[17:02:19] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[17:02:19] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:02:19] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[17:02:20] [Server thread/INFO]: Done (92.858s)! For help, type "help"
-[17:02:20] [Server thread/INFO]: Timings Reset
-[17:02:20] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
-[17:02:20] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[17:02:20] [Craft Scheduler Thread - 12 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
-[17:07:59] [Server thread/INFO]: Stopping the server
-[17:07:59] [Server thread/INFO]: Stopping server
-[17:07:59] [Server thread/INFO]: [WeaponMaster] Disabling WeaponMaster v1.8.0
-[17:07:59] [Server thread/INFO]: [InvSee++] Disabling InvSeePlusPlus v0.30.7
-[17:07:59] [Server thread/INFO]: [CelestialSwords] Disabling CelestialSwords v1.2.9
-[17:07:59] [Server thread/INFO]: [CelestialSwords] Saved sword enchantments and recipes to configuration
-[17:07:59] [Server thread/INFO]: [CelestialSwords] AstralSwords plugin has been disabled!
-[17:07:59] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.3.1.1 b114
-[17:07:59] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[17:07:59] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[17:07:59] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 2ms)
-[17:07:59] [Craft Scheduler Thread - 15 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[17:07:59] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.22.4
-[17:07:59] [Craft Scheduler Thread - 17 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[17:07:59] [Server thread/INFO]: [BendingGUI] Disabling BendingGUI v1.6.2
-[17:07:59] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.6
-[17:07:59] [Server thread/INFO]: [SuperEnchants] Disabling SuperEnchants v3.2.0.1
-[17:07:59] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.1
-[17:07:59] [Server thread/INFO]: [FaithBreak] Disabling FaithBreak v1.2.1
-[17:07:59] [Server thread/INFO]: [FaithBreak] FaithBreak has been disabled!
-[17:07:59] [Server thread/INFO]: [TeaksTweaks] Disabling TeaksTweaks v2.0.6-mc1.21.1
-[17:07:59] [Server thread/INFO]: [TeaksTweaks] [INFO] Teak's Tweaks Shutting Down...
-[17:07:59] [Server thread/INFO]: [Origins-Magic] Disabling Origins-Magic v1.0.18
-[17:07:59] [Server thread/INFO]: [Origins-Fantasy] Disabling Origins-Fantasy v1.1.13
-[17:07:59] [Server thread/INFO]: [BuildPaste] Disabling BuildPaste v1.11.1
-[17:07:59] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.5.6-beta
-[17:07:59] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
-[17:07:59] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.8.5.0
-[17:07:59] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
-[17:07:59] [Server thread/INFO]: [Orebfuscator] Disabling Orebfuscator v5.5.4
-[17:07:59] [Server thread/INFO]: [MagicItems] Disabling MagicItems v1.2
-[17:07:59] [Server thread/INFO]: [MagicItems] Goodbye from magic items!
-[17:07:59] [Server thread/INFO]: [Terra] Disabling Terra v6.5.1-BETA+0a952cff4
-[17:07:59] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
-[17:07:59] [Server thread/INFO]: [GodItems] Disabling GodItems v3.0.1
-[17:07:59] [Server thread/INFO]: [GodItems] Saved player inventories: true
-[17:07:59] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
-[17:07:59] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
-[17:07:59] [Server thread/INFO]: [ProjectKorra] Disabling ProjectKorra v1.12.0
-[17:07:59] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1
-[17:07:59] [Server thread/INFO]: [Origins-Reborn] Disabling Origins-Reborn v2.10.5
-[17:07:59] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
-[17:07:59] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[17:07:59] [Server thread/INFO]: [LuckPerms] Closing storage...
-[17:07:59] [Server thread/INFO]: [LuckPerms] Goodbye!
-[17:07:59] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.9
-[17:07:59] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
-[17:07:59] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[17:07:59] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[17:07:59] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10-beta-01+cb9fd58
-[17:07:59] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[17:07:59] [Server thread/INFO]: Saving players
-[17:07:59] [Server thread/INFO]: Saving worlds
-[17:07:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 26 entity chunks, 0 poi chunks in world 'world' in 0.03s
-[17:07:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[17:07:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[17:07:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 32 entity chunks, 0 poi chunks in world 'world_the_end' in 0.07s
-[17:07:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:07:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:07:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:07:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:23:46] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[20:23:46] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[20:23:47] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loading 4 libraries... please wait
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/junit/junit/4.10/junit-4.10.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar
+[20:23:48] [Server thread/INFO]: [SpigotLibraryLoader] [TeaksTweaks] Loaded library /workspaces/musical-robot/servidor_minecraft/libraries/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar
+[20:23:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10-beta-01+cb9fd58
+[20:23:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3a9df0c0]
+[20:23:55] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[20:23:55] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[20:23:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
+[20:23:55] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[20:23:56] [Server thread/INFO]: [Origins-Reborn] Loading server plugin Origins-Reborn v2.10.5
+[20:23:56] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[20:23:56] [Server thread/INFO]: [ProjectKorra] Loading server plugin ProjectKorra v1.12.0
+[20:23:56] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[20:23:56] [Server thread/INFO]: [GodItems] Loading server plugin GodItems v3.0.1
+[20:23:56] [Server thread/INFO]: [GodItems] Loaded WorldGuard features.
+[20:23:56] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[20:23:56] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.5.1-BETA+0a952cff4
+[20:23:56] [Server thread/INFO]: [MagicItems] Loading server plugin MagicItems v1.2
+[20:23:56] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.4
+[20:23:56] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.8.5.0
+[20:23:56] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
+[20:23:56] [Server thread/INFO]: [BuildPaste] Loading server plugin BuildPaste v1.11.1
+[20:23:56] [Server thread/INFO]: [Origins-Fantasy] Loading server plugin Origins-Fantasy v1.1.13
+[20:23:56] [Server thread/INFO]: [Origins-Magic] Loading server plugin Origins-Magic v1.0.18
+[20:23:56] [Server thread/INFO]: [TeaksTweaks] Loading server plugin TeaksTweaks v2.0.6-mc1.21.1
+[20:23:56] [Server thread/INFO]: [FaithBreak] Loading server plugin FaithBreak v1.2.1
+[20:23:56] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.1
+[20:23:56] [Server thread/INFO]: [DeathCoords] Loading server plugin DeathCoords vV1.0
+[20:23:56] [Server thread/INFO]: [SuperEnchants] Loading server plugin SuperEnchants v3.2.0.1
+[20:23:56] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.6
+[20:23:56] [Server thread/INFO]: [BendingGUI] Loading server plugin BendingGUI v1.6.2
+[20:23:56] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.22.4
+[20:23:56] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.3.1.1 b114
+[20:23:56] [Server thread/INFO]: [LevelledMobs] Loading commands
+[20:23:57] [Server thread/INFO]: [CelestialSwords] Loading server plugin CelestialSwords v1.2.9
+[20:23:57] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.30.7
+[20:23:57] [Server thread/INFO]: [WeaponMaster] Loading server plugin WeaponMaster v1.8.0
+[20:23:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:23:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10-beta-01+cb9fd58
+[20:23:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:23:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:23:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[20:24:00] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[20:24:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
+[20:24:03] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[20:24:04] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:24:04] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.7.10) is available! Downloading update...
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 589ms
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[20:24:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[20:24:05] [Server thread/INFO]:         __    
+[20:24:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[20:24:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:24:05] [Server thread/INFO]: 
+[20:24:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:24:06] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:24:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:24:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:24:07] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2770ms)
+[20:24:07] [Server thread/INFO]: [Terra] Enabling Terra v6.5.1-BETA+0a952cff4
+[20:24:07] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.21.1 with server implementation Paper.
+[20:24:07] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[20:24:07] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: origen-v2.2.0.zip
+[20:24:11] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "ORIGEN:ORIGEN"
+[20:24:11] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:24:11] [Server thread/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:24:11] [Server thread/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:24:11] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:24:11] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:24:11] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:24:13] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "ORIGEN:ORIGEN" v1.0.0 by Astrash, Sancires, Aureus, Rearth in 5567.386756ms.
+[20:24:13] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[20:24:14] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[20:24:16] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.4 by Astrash, Sancires, Aureus in 2288.462398ms.
+[20:24:16] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[20:24:16] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.AwfulBukkitHacks] Hacking biome registry...
+[20:24:16] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.AwfulBukkitHacks] Doing tag garbage....
+[20:24:16] [Server thread/INFO]: [SuperEnchants] Enabling SuperEnchants v3.2.0.1
+[20:24:16] [Server thread/INFO]: [SuperEnchants] Loading SuperEnchants v3.2.0.1 by Aznos
+[20:24:16] [Server thread/INFO]: [SuperEnchants] -------------------------------------
+[20:24:16] [Server thread/INFO]: [SuperEnchants] If you'd like to support SuperEnchants and you find it useful, please consider donating at: https://buymeacoffee.com/aznos
+[20:24:16] [Server thread/INFO]: [SuperEnchants] -------------------------------------
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_en.yml to plugins/SuperEnchants/lang_en.yml because lang_en.yml already exists.
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_de.yml to plugins/SuperEnchants/lang_de.yml because lang_de.yml already exists.
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_pt.yml to plugins/SuperEnchants/lang_pt.yml because lang_pt.yml already exists.
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_es.yml to plugins/SuperEnchants/lang_es.yml because lang_es.yml already exists.
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_fr.yml to plugins/SuperEnchants/lang_fr.yml because lang_fr.yml already exists.
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_nl.yml to plugins/SuperEnchants/lang_nl.yml because lang_nl.yml already exists.
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_ru.yml to plugins/SuperEnchants/lang_ru.yml because lang_ru.yml already exists.
+[20:24:17] [Server thread/WARN]: [SuperEnchants] Could not save lang_pirate.yml to plugins/SuperEnchants/lang_pirate.yml because lang_pirate.yml already exists.
+[20:24:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:24:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:24:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:24:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:24:17] [Server thread/INFO]: Preparing level "world"
+[20:24:18] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.NMSInjectListener] Preparing to take over the world: world
+[20:24:18] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.NMSInjectListener] Successfully injected into world.
+[20:24:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:24:21] [Server thread/INFO]: Time elapsed: 3064 ms
+[20:24:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:24:22] [Server thread/INFO]: Time elapsed: 421 ms
+[20:24:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:24:22] [Server thread/INFO]: Time elapsed: 426 ms
+[20:24:22] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:24:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:24:23] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:24:25] [Server thread/INFO]: [Origins-Reborn] Enabling Origins-Reborn v2.10.5
+[20:24:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[20:24:28] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:24:29] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:24:29] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:24:29] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:24:30] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[20:24:30] [Server thread/INFO]: [Essentials] Using locale en
+[20:24:31] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:24:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:24:31] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[20:24:31] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[20:24:31] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[20:24:31] [Server thread/INFO]: [ProjectKorra] Enabling ProjectKorra v1.12.0
+[20:24:35] [Server thread/INFO]: [ProjectKorra] Establishing SQLite Connection...
+[20:24:35] [Server thread/INFO]: [ProjectKorra] [SQLite] Connection established!
+[20:24:36] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[20:24:36] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[20:24:36] [Server thread/INFO]: [ClearLag] Loading modules...
+[20:24:36] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[20:24:36] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[20:24:36] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[20:24:36] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[20:24:36] [Thread-14/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[20:24:36] [Thread-14/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[20:24:36] [Thread-14/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[20:24:36] [Thread-14/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[20:24:36] [Thread-14/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[20:24:36] [Thread-14/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:24:36] [Server thread/INFO]: [GodItems] Enabling GodItems v3.0.1
+[20:24:36] [Server thread/INFO]: [GodItems] Made by MitromniZ and Cros_bow
+[20:24:36] [Server thread/INFO]: [GodItems] The texture pack is only available if you download the plugin from our patreon page
+[20:24:37] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[20:24:37] [Server thread/INFO]: [MagicItems] Enabling MagicItems v1.2
+[20:24:37] [Server thread/INFO]: [MagicItems] All names loaded!
+[20:24:37] [Server thread/INFO]: [MagicItems] If any warnings showed up, you could try to delete the config.yml file so new one could generate.
+[20:24:37] [Server thread/INFO]: [MagicItems] Hello from magic items!
+[20:24:37] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.4
+[20:24:42] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.8.5.0
+[20:24:53] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[20:24:53] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
+[20:24:53] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[20:24:53] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[20:24:53] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[20:24:54] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[20:24:54] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
+[20:24:54] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[20:24:54] [Server thread/INFO]: [BuildPaste] Enabling BuildPaste v1.11.1
+[20:24:54] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.1.13
+[20:24:55] [Server thread/INFO]: [Origins-Magic] Enabling Origins-Magic v1.0.18
+[20:24:55] [Server thread/INFO]: [TeaksTweaks] Enabling TeaksTweaks v2.0.6-mc1.21.1
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO] Updated Plugin Config
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO] Loaded language file: en.json
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /teakstweaks
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /mechanics
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO] Registered Command: /packlist
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO]  
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO] Teak's Tweaks v2.0.6-mc1.21.1 has started!
+[20:24:57] [Server thread/INFO]: [TeaksTweaks] [INFO]  
+[20:24:58] [Server thread/INFO]: [FaithBreak] Enabling FaithBreak v1.2.1
+[20:24:58] [Server thread/INFO]: [FaithBreak] FaithBreak has been enabled! Debug mode: OFF
+[20:24:58] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.1
+[20:24:58] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[20:24:58] [Server thread/INFO]: [DeathCoords] Enabling DeathCoords vV1.0
+[20:24:58] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.6
+[20:25:00] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[20:25:01] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[20:25:01] [Server thread/INFO]: [AuraSkills] Successfully registered hook ProtocolLib
+[20:25:01] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
+[20:25:01] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 126 ms
+[20:25:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[20:25:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[20:25:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[20:25:01] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[20:25:02] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:25:03] [Server thread/INFO]: [BendingGUI] Enabling BendingGUI v1.6.2
+[20:25:03] [Server thread/INFO]: [BendingGUI] BendingGUI Fully Loaded!
+[20:25:03] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.22.4
+[20:25:04] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.3.1.1 b114
+[20:25:04] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[20:25:04] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[20:25:04] [Server thread/INFO]: [LevelledMobs] Found Essentials, loading integration
+[20:25:04] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21.1 for nametag support
+[20:25:04] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[20:25:04] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[20:25:04] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[20:25:04] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[20:25:04] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[20:25:05] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
+[20:25:05] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[20:25:05] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[20:25:05] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[20:25:05] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[20:25:05] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 801ms)
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Enabling CelestialSwords v1.2.9
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Checking plugin dependencies...
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Checking for CelestialSwords updates...
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Current version: 1.2.9
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Latest version available: 1.2.9
+[20:25:05] [Server thread/INFO]: [CelestialSwords] CelestialSwords is up to date.
+[20:25:05] [Server thread/WARN]: [CelestialSwords] Required dependency '' is missing. Attempting to download and install...
+[20:25:05] [Server thread/WARN]: [CelestialSwords] Failed to fetch version info for '': HTTP 404
+[20:25:05] [Server thread/ERROR]: [CelestialSwords] Failed to fetch version information for '' from Modrinth.
+[20:25:05] [Server thread/INFO]: [CelestialSwords] FaithBreak is already loaded and enabled. Skipping reinstallation to avoid conflicts.
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Current FaithBreak version: 1.2.1
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Loaded sword enchantments and recipes from configuration
+[20:25:05] [Server thread/INFO]: [CelestialSwords] Loaded sword data for 0 players and 0 global swords
+[20:25:05] [Server thread/INFO]: [CelestialSwords] AstralSwords plugin has been enabled!
+[20:25:05] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.30.7
+[20:25:06] [Server thread/INFO]: [WeaponMaster] Enabling WeaponMaster v1.8.0
+[20:25:06] [Server thread/INFO]: [WeaponMaster] --------------------
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #######################################################################################################################
+[20:25:06] [Server thread/INFO]: [WeaponMaster] # ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌#
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀ ▐░█▀▀▀▀▀▀▀▀▀ #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░▌          ▐░▌       ▐░▌▐░▌          ▐░▌       ▐░▌     ▐░▌     ▐░▌          ▐░▌       ▐░▌     ▐░▌     ▐░▌          #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░▌ ▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌     ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░█▄▄▄▄▄▄▄█░▌     ▐░▌     ▐░▌          #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░▌▐░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌     ▐░▌     ▐░▌          #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░▌ ▀▀▀▀▀▀█░▌▐░█▀▀▀▀█░█▀▀ ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌     ▐░▌     ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀█░█▀▀      ▐░▌     ▐░▌          #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░▌       ▐░▌▐░▌     ▐░▌  ▐░▌          ▐░▌       ▐░▌     ▐░▌     ▐░▌          ▐░▌     ▐░▌       ▐░▌     ▐░▌          #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░█▄▄▄▄▄▄▄█░▌▐░▌      ▐░▌ ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌     ▐░▌     ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌      ▐░▌  ▄▄▄▄█░█▄▄▄▄ ▐░█▄▄▄▄▄▄▄▄▄ #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌     ▐░▌     ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌#
+[20:25:06] [Server thread/INFO]: [WeaponMaster] # ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀       ▀       ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀ #
+[20:25:06] [Server thread/INFO]: [WeaponMaster] #######################################################################################################################
+[20:25:06] [Server thread/INFO]: [WeaponMaster] 
+[20:25:06] [Server thread/INFO]: [WeaponMaster] WeaponMaster
+[20:25:06] [Server thread/INFO]: [WeaponMaster] 
+[20:25:06] [Server thread/INFO]: [WeaponMaster] Copyright (C) greateric 2021-present. Licensed under GPL v3.
+[20:25:06] [Server thread/INFO]: [WeaponMaster] Initializing WeaponMaster by greateric
+[20:25:06] [Server thread/INFO]: [WeaponMaster] --------------------
+[20:25:06] [Server thread/INFO]: [WeaponMaster] Finished setting up! [492 ms]
+[20:25:07] [Server thread/INFO]: [spark] Starting background profiler...
+[20:25:08] [Server thread/INFO]: Done preparing level "world" (51.373s)
+[20:25:08] [Server thread/INFO]: Running delayed init tasks
+[20:25:08] [Craft Scheduler Thread - 5 - ProjectKorra/INFO]: [ProjectKorra] Checking for updates...!
+[20:25:08] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:25:08] [Craft Scheduler Thread - 10 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[20:25:08] [Craft Scheduler Thread - 10 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
+[20:25:08] [Craft Scheduler Thread - 10 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[20:25:09] [Craft Scheduler Thread - 19 - LevelledMobs/WARN]: [LevelledMobs] LevelledMobs Update Checker Notice:
+[20:25:09] [Craft Scheduler Thread - 19 - LevelledMobs/WARN]: [LevelledMobs] Your LevelledMobs version is outdated! Please update to v4.3.2.1 as soon as possible. (You're running v4.3.1.1)
+[20:25:09] [Craft Scheduler Thread - 5 - ProjectKorra/INFO]: [ProjectKorra] You are running the latest version of ProjectKorra
+[20:25:09] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 312 total sources
+[20:25:10] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[20:25:10] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[20:25:10] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[20:25:11] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:25:11] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[20:25:11] [Server thread/INFO]: Done (115.434s)! For help, type "help"
+[20:25:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3248ms or 64 ticks behind
+[20:25:11] [Server thread/INFO]: Timings Reset
+[20:25:12] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.2.
+[20:25:12] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[20:25:12] [Craft Scheduler Thread - 12 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[20:25:52] [User Authenticator #0/INFO]: UUID of player robeeert7385 is cc87c641-6c3b-3200-8ebc-585e92243fc1
+[20:25:54] [Server thread/INFO]: robeeert7385 joined the game
+[20:25:55] [Server thread/INFO]: robeeert7385[/127.249.162.81:50687] logged in with entity id 117 at ([world]1.3984223916364433, 137.0625, 57.23132993615672)
+[20:25:55] [Craft Scheduler Thread - 13 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.249.162.81) - plugin functionality disabled for this player
+[20:25:55] [Craft Scheduler Thread - 5 - ProjectKorra/INFO]: [ProjectKorra] Successfully loaded in all abilities!
+[20:25:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4147ms or 82 ticks behind
+[20:26:00] [User Authenticator #0/INFO]: UUID of player Ibiisgiu is 07b6b3c2-bada-3fe1-8af1-ddd0268b7c70
+[20:26:02] [Server thread/INFO]: Ibiisgiu joined the game
+[20:26:02] [Server thread/INFO]: Ibiisgiu[/127.22.172.59:43981] logged in with entity id 204 at ([world]6.5, 137.0, 56.5)
+[20:26:02] [Craft Scheduler Thread - 4 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.22.172.59) - plugin functionality disabled for this player
+[20:26:02] [Server thread/INFO]: [ProjectKorra] Created new BendingPlayer for Ibiisgiu
+[20:26:03] [Server thread/INFO]: Ibiisgiu has made the advancement [Getting an Upgrade]
+[20:26:22] [Server thread/INFO]: robeeert7385 issued server command: /time set day
+[20:26:35] [Server thread/INFO]: Ibiisgiu lost connection: Disconnected
+[20:26:36] [Server thread/INFO]: Ibiisgiu left the game
+[20:26:53] [Server thread/INFO]: robeeert7385 lost connection: Disconnected
+[20:26:53] [Server thread/INFO]: robeeert7385 left the game
+[20:27:05] [User Authenticator #1/INFO]: UUID of player robeeert7385 is cc87c641-6c3b-3200-8ebc-585e92243fc1
+[20:27:07] [Server thread/INFO]: robeeert7385 joined the game
+[20:27:07] [Server thread/INFO]: robeeert7385[/127.249.162.81:46425] logged in with entity id 316 at ([world]3.1088168166012644, 141.1621346984093, 51.85386329981078)
+[20:27:07] [Craft Scheduler Thread - 24 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.249.162.81) - plugin functionality disabled for this player
+[20:27:44] [Server thread/INFO]: robeeert7385 lost connection: Disconnected
+[20:27:44] [Server thread/INFO]: robeeert7385 left the game
+[20:28:37] [User Authenticator #2/INFO]: UUID of player robeeert7385 is cc87c641-6c3b-3200-8ebc-585e92243fc1
+[20:28:39] [Server thread/INFO]: robeeert7385 joined the game
+[20:28:39] [Server thread/INFO]: robeeert7385[/127.249.162.81:60267] logged in with entity id 380 at ([world]6.847502414472674, 139.97076292018852, 54.726210884535995)
+[20:28:39] [Craft Scheduler Thread - 28 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.249.162.81) - plugin functionality disabled for this player
+[20:29:19] [User Authenticator #2/INFO]: UUID of player Ibiisgiu is 07b6b3c2-bada-3fe1-8af1-ddd0268b7c70
+[20:29:21] [Server thread/INFO]: Ibiisgiu joined the game
+[20:29:21] [Server thread/INFO]: Ibiisgiu[/127.22.172.59:46677] logged in with entity id 442 at ([world]1.286064314580818, 137.0625, 57.59306601400065)
+[20:29:21] [Craft Scheduler Thread - 26 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.22.172.59) - plugin functionality disabled for this player
