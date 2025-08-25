@@ -1,0 +1,59 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 2,
+  "name": "inicio",
+  "url": "https://media.discordapp.net/attachments/1385408274416926771/1409396596373852242/peq2.jpg?ex\u003d68ad3a5d\u0026is\u003d68abe8dd\u0026hm\u003da3a185c963acfa8b54dcda764f80f45dc632d0a579d425f0d4a92c6ca7d6f343\u0026\u003d\u0026format\u003dwebp\u0026width\u003d1253\u0026height\u003d708",
+  "width": 3,
+  "height": 3,
+  "ditheringType": "nearest-color",
+  "creator": "cc87c641-6c3b-3200-8ebc-585e92243fc1",
+  "hasAccess": {},
+  "creationTime": 1756097101124,
+  "mapdata": [
+    {
+      "mapid": 15,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 16,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 17,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 18,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 19,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 20,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 21,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 22,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 23,
+      "image": "8.png",
+      "markers": []
+    }
+  ]
+}
