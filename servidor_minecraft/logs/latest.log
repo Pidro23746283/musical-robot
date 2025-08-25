@@ -3592,3 +3592,85 @@ java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
 [22:25:39] [Server thread/INFO]: robeeert7385 issued server command: /gamemode spectator
 [22:25:43] [Server thread/INFO]: robeeert7385 issued server command: /tp Ibiisgiu
 [22:25:51] [Server thread/INFO]: robeeert7385 issued server command: /tp Ibiisgiu
+[22:28:09] [Server thread/INFO]: robeeert7385 issued server command: /gamemode creative
+[22:28:18] [Server thread/INFO]: robeeert7385 issued server command: /gamemode spectator
+[22:29:19] [Server thread/INFO]: robeeert7385 issued server command: /gamemode creative
+[22:29:52] [Server thread/INFO]: robeeert7385 issued server command: /gamemode spectator
+[22:30:19] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:31:07] [Server thread/INFO]: robeeert7385 issued server command: /gamemode creative
+[22:32:23] [Server thread/INFO]: robeeert7385 issued server command: /tp Ibiisgiu
+[22:32:51] [Server thread/INFO]: robeeert7385 issued server command: /skills
+[22:33:39] [Server thread/INFO]: Ibiisgiu issued server command: /skills
+[22:33:50] [Server thread/INFO]: robeeert7385 issued server command: /skills
+[22:35:19] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:base_attack_speed
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:38:26] [Server thread/INFO]: robeeert7385 issued server command: /tp Ibiisgiu
+[22:39:53] [Server thread/INFO]: robeeert7385 issued server command: /bombcannon robeeert7385
+[22:40:18] [Server thread/INFO]: robeeert7385 issued server command: /tp Ibiisgiu
+[22:40:19] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:41:35] [Server thread/INFO]: robeeert7385 issued server command: /tp i
+[22:45:19] [Server thread/WARN]: [WeaponMaster] Task #88 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[22:46:41] [Server thread/INFO]: robeeert7384 lost connection: Disconnected
+[22:46:41] [Server thread/INFO]: robeeert7384 left the game
+[22:46:49] [Server thread/INFO]: robeeert7385 issued server command: /spawn
+[22:47:07] [Server thread/INFO]: robeeert7385 lost connection: Disconnected
+[22:47:07] [Server thread/INFO]: robeeert7385 left the game

@@ -1,3 +1,151 @@
-armor: {}
+armor:
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
 charms: {}
-contents: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 27
+  slot_1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_SHOVEL
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STONE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 18
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      Damage: 177
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BAMBOO
+    amount: 16
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COBBLESTONE
+    amount: 57
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BROWN_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"","extra":[{"text":"Basic Backpack","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#E3680E","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"60x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Bread","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"34x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Iron
+        Ingot","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"21x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Coal
+        Block","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"16x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Hay
+        Block","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"3x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Glow
+        Berries","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Golden
+        Hoe","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"White
+        Bed","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Golden
+        Boots","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      - '{"text":"","extra":[{"text":"1x ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#F9C100","bold":false},{"text":"Flint
+        And Steel","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#DADADA","bold":false}]}'
+      custom-model-data: 800001
+      max-stack-size: 1
+      PublicBukkitValues: |-
+        {
+            "backpackplus:backpacktier": 1,
+            "backpackplus:backpackused": 1,
+            "backpackplus:backpackuuid": "6d7ce4e9-fc86-44a8-958d-4e4527db4bf8",
+            "backpackplus:database": "SQLITE"
+        }
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COAL
+    amount: 2
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DIRT
+    amount: 2
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BOOK
+    amount: 12
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: FURNACE
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BIRCH_PLANKS
+    amount: 22
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COBBLESTONE
+    amount: 2
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: STICK
+    amount: 2
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: SAND
+    amount: 3
+  slot_17:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: CRAFTING_TABLE
+  slot_23:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: IRON_NUGGET
+    amount: 9
+  slot_26:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: COMPASS
+      display-name: '{"text":"","extra":[{"text":"Configure Bending","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+      lore:
+      - '{"text":"","extra":[{"text":"Right click to configure your bending!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}'
+      PublicBukkitValues: |-
+        {
+            "bendinggui:item": 0b
+        }
+  slot_30:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: LIGHT_WEIGHTED_PRESSURE_PLATE
+  slot_33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: GOLDEN_HORSE_ARMOR

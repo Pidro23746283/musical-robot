@@ -1,4 +1,6 @@
 {
   "uuid": "123e4f14-e40e-3289-9e22-66649e4a54d7",
-  "preferences": {}
+  "preferences": {
+    "viewAnimatedMaps": "unset"
+  }
 }

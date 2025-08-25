@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1756162001771
   login: 1756155305224
 money: '0'
 last-account-name: robeeert7384
@@ -28,3 +28,11 @@ lastlocation:
   z: -1108.300000011921
   yaw: -58.64794921875
   pitch: 36.00004577636719
+logoutlocation:
+  world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
+  world-name: world
+  x: 3.2773826773975285
+  y: 137.0
+  z: 55.02598413773156
+  yaw: -56.69998550415039
+  pitch: 29.999988555908203
