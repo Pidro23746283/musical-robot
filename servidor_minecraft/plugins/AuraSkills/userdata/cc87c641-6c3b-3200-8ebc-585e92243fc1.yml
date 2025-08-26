@@ -11,7 +11,7 @@ skills:
     xp: 0.0
   auraskills/excavation:
     level: 0
-    xp: 7.300000000000001
+    xp: 8.7
   auraskills/foraging:
     level: 0
     xp: 0.0
@@ -23,7 +23,7 @@ skills:
     xp: 50.0
   auraskills/fighting:
     level: 1
-    xp: 33.0
+    xp: 45.0
   auraskills/alchemy:
     level: 0
     xp: 60.0
@@ -38,4 +38,4 @@ action_bar:
   idle: true
 ability_data:
   auraskills/xp_convert:
-    xp: 7.484200000000004
+    xp: 20.884200000000003
