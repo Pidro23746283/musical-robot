@@ -7910,3 +7910,111 @@ java.lang.IllegalArgumentException: Invalid UUID string: minecraft:base_attack_s
 [01:54:06] [Server thread/INFO]: robeeert7384 issued server command: /home d
 [01:54:14] [Server thread/INFO]: robeeert7384 issued server command: /spawn
 [01:54:27] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[01:54:51] [Server thread/INFO]: robeeert7384 issued server command: /home d
+[01:54:52] [Server thread/INFO]: Ibiisgiu issued server command: /tpa SkyDeath__
+[01:54:53] [Server thread/INFO]: SkyDeath__ issued server command: /tpaccept
+[01:55:00] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[01:56:32] [Server thread/INFO]: SkyDeath__ issued server command: /b clear
+[01:56:37] [Server thread/INFO]: SkyDeath__ issued server command: /b bind FireJet
+[01:56:55] [Server thread/WARN]: [WeaponMaster] Task #91 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:57:02] [Server thread/INFO]: Ibiisgiu issued server command: /tpa SkyDeath__
+[01:57:03] [Server thread/INFO]: SkyDeath__ issued server command: /tpaccept
+[01:58:32] [Server thread/INFO]: robeeert7384 issued server command: /home d
+[01:58:40] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[01:58:53] [Server thread/INFO]: robeeert7385 issued server command: /gamemode spectator robeeert7384
+[01:59:45] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[01:59:55] [Server thread/INFO]: robeeert7385 issued server command: /gamemode survival
+[02:00:01] [Server thread/INFO]: robeeert7385 issued server command: /gamemode creative
+[02:00:11] [Server thread/INFO]: robeeert7385 issued server command: /gamemode survival robeeert7384
+[02:00:37] [Server thread/INFO]: robeeert7384 issued server command: /tpa SkyDeath__
+[02:00:45] [Server thread/INFO]: robeeert7384 issued server command: /tpa Ibiisgiu
+[02:01:23] [Server thread/INFO]: SkyDeath__ issued server command: /skill
+[02:01:32] [Server thread/INFO]: robeeert7384 was slain by SkyDeath__
+[02:01:42] [Server thread/INFO]: robeeert7384 issued server command: /delhome d
+[02:01:44] [Server thread/INFO]: Ibiisgiu issued server command: /tpa SkyDeath__
+[02:01:55] [Server thread/WARN]: [WeaponMaster] Task #91 for WeaponMaster v1.8.0 generated an exception
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.haste
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:60) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger$1.run(AttributeChanger.java:96) ~[weaponmaster-1.8.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[02:01:56] [Server thread/INFO]: SkyDeath__ issued server command: /tpaccept
+[02:02:04] [Server thread/WARN]: robeeert7384 was kicked for floating too long!
+[02:02:04] [Server thread/INFO]: robeeert7384 lost connection: Flying is not enabled on this server
+[02:02:04] [Server thread/INFO]: robeeert7384 left the game
+[02:02:12] [User Authenticator #3/INFO]: UUID of player robeeert7384 is 123e4f14-e40e-3289-9e22-66649e4a54d7
+[02:02:13] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to WeaponMaster v1.8.0
+java.lang.IllegalArgumentException: Invalid UUID string: minecraft:effect.speed
+	at java.base/java.util.UUID.fromString1(UUID.java:282) ~[?:?]
+	at java.base/java.util.UUID.fromString(UUID.java:260) ~[?:?]
+	at org.bukkit.attribute.AttributeModifier.getUniqueId(AttributeModifier.java:74) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.searchExistingAM(AttributeChanger.java:49) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.updateAttributes(AttributeChanger.java:80) ~[weaponmaster-1.8.0.jar:?]
+	at weaponmaster-1.8.0.jar/io.github.greatericontop.weaponmaster.dragondescent.AttributeChanger.onPlayerJoin(AttributeChanger.java:105) ~[weaponmaster-1.8.0.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor809.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:347) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.network.ServerConfigurationPacketListenerImpl.handleConfigurationFinished(ServerConfigurationPacketListenerImpl.java:173) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:22) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.configuration.ServerboundFinishConfigurationPacket.handle(ServerboundFinishConfigurationPacket.java:13) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[02:02:13] [Server thread/INFO]: robeeert7384 joined the game
+[02:02:13] [Server thread/INFO]: robeeert7384[/127.133.211.128:46309] logged in with entity id 27949 at ([world]-7.540424423508059, 119.26418864878323, 126.79363089654505)
+[02:02:13] [Craft Scheduler Thread - 317 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.133.211.128) - plugin functionality disabled for this player
+[02:02:29] [Server thread/INFO]: robeeert7384 issued server command: /spawn
+[02:02:51] [Server thread/INFO]: robeeert7384 issued server command: /home d
+[02:02:52] [Server thread/INFO]: robeeert7384 issued server command: /home d
+[02:03:05] [Server thread/INFO]: robeeert7384 issued server command: /delhome d
+[02:03:19] [Server thread/WARN]: robeeert7384 was kicked for floating too long!
+[02:03:19] [Server thread/INFO]: robeeert7384 lost connection: Flying is not enabled on this server
+[02:03:19] [Server thread/INFO]: robeeert7384 left the game
+[02:03:26] [User Authenticator #4/INFO]: UUID of player robeeert7384 is 123e4f14-e40e-3289-9e22-66649e4a54d7
+[02:03:27] [Server thread/INFO]: robeeert7384 joined the game
+[02:03:27] [Server thread/INFO]: robeeert7384[/127.133.211.128:49793] logged in with entity id 28193 at ([world]-5.887526104634661, 105.43625832254394, 115.32065899943665)
+[02:03:27] [Craft Scheduler Thread - 281 - FaithBreak/INFO]: [FaithBreak] Player connecting from local/private network (127.133.211.128) - plugin functionality disabled for this player
+[02:03:39] [Server thread/INFO]: SkyDeath__ fell from a high place
+[02:03:40] [Server thread/INFO]: robeeert7384 issued server command: /sethome d
+[02:05:05] [Server thread/INFO]: robeeert7384 was slain by SkyDeath__
