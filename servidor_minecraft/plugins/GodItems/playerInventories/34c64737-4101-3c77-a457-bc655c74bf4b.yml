@@ -2,23 +2,11 @@ armor:
   helmet:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: GOLDEN_HELMET
+    type: DIAMOND_HELMET
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 27
-      PublicBukkitValues: |-
-        {
-            "magicitems:magic-items": "rolled"
-        }
-  chestplate:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: IRON_CHESTPLATE
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 92
+      Damage: 77
       PublicBukkitValues: |-
         {
             "magicitems:magic-items": "rolled"
@@ -30,7 +18,7 @@ armor:
     meta:
       ==: ItemMeta
       meta-type: ARMOR
-      Damage: 81
+      Damage: 129
       PublicBukkitValues: |-
         {
             "magicitems:magic-items": "rolled"
@@ -38,121 +26,7 @@ armor:
   boots:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: GOLDEN_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 32
-      PublicBukkitValues: |-
-        {
-            "magicitems:magic-items": "rolled"
-        }
-  offhand:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: SHIELD
-    meta:
-      ==: ItemMeta
-      meta-type: SHIELD
-      Damage: 24
-charms: {}
-contents:
-  slot_0:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: IRON_SWORD
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 106
-      PublicBukkitValues: |-
-        {
-            "magicitems:magic-items": "rolled"
-        }
-  slot_2:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: NETHERRACK
-    amount: 4
-  slot_3:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: IRON_PICKAXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 147
-  slot_4:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: IRON_AXE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 9
-      PublicBukkitValues: |-
-        {
-            "magicitems:magic-items": "rolled"
-        }
-  slot_5:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: BREAD
-    amount: 56
-  slot_6:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: BUCKET
-  slot_7:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: FURNACE
-    amount: 2
-  slot_8:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: COAL
-    amount: 9
-  slot_9:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: STICK
-    amount: 6
-  slot_10:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: RAW_GOLD
-    amount: 22
-  slot_11:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: CHEST
-  slot_12:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: GOLD_INGOT
-    amount: 2
-  slot_13:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: GLOW_BERRIES
-    amount: 4
-  slot_14:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: CRAFTING_TABLE
-  slot_15:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: FLINT_AND_STEEL
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      Damage: 5
-  slot_16:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: IRON_HELMET
+    type: DIAMOND_BOOTS
     meta:
       ==: ItemMeta
       meta-type: ARMOR
@@ -161,60 +35,90 @@ contents:
         {
             "magicitems:magic-items": "rolled"
         }
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: AIR
+    amount: 0
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_4:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_5:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_6:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 36
+  slot_9:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_10:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_11:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_12:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_13:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_14:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_15:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
+  slot_16:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: BONE_MEAL
+    amount: 64
   slot_17:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: BROWN_DYE
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: '{"text":"","extra":[{"text":"Basic Backpack","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"#E3680E","bold":false}]}'
-      custom-model-data: 800001
-      max-stack-size: 1
-      PublicBukkitValues: |-
-        {
-            "backpackplus:backpacktier": 1,
-            "backpackplus:backpackused": 1,
-            "backpackplus:backpackuuid": "494a9984-1e9c-4a45-942b-d34cdee1d107",
-            "backpackplus:database": "SQLITE"
-        }
-  slot_18:
+    type: BONE_MEAL
+    amount: 64
+  slot_1:
     ==: org.bukkit.inventory.ItemStack
     v: 3955
-    type: ARROW
-  slot_19:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: WATER_BUCKET
-  slot_20:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: ACACIA_PLANKS
-    amount: 13
-  slot_21:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: BONE
-    amount: 4
-  slot_22:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: IRON_INGOT
-    amount: 29
-  slot_23:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: IRON_BOOTS
-    meta:
-      ==: ItemMeta
-      meta-type: ARMOR
-      Damage: 49
-      PublicBukkitValues: |-
-        {
-            "magicitems:magic-items": "rolled"
-        }
-  slot_24:
-    ==: org.bukkit.inventory.ItemStack
-    v: 3955
-    type: BLAZE_ROD
-    amount: 6
+    type: BONE_MEAL
+    amount: 64
