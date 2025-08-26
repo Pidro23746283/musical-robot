@@ -5,7 +5,7 @@ skills:
     xp: 20.0
   auraskills/agility:
     level: 1
-    xp: 46.93499999999999
+    xp: 50.15899999999999
   auraskills/farming:
     level: 0
     xp: 0.0
@@ -36,3 +36,6 @@ skills:
 mana: 24.0
 action_bar:
   idle: true
+ability_data:
+  auraskills/xp_convert:
+    xp: 3.224
