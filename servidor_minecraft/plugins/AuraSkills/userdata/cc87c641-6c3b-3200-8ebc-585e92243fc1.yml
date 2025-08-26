@@ -2,7 +2,7 @@ uuid: cc87c641-6c3b-3200-8ebc-585e92243fc1
 skills:
   auraskills/enchanting:
     level: 1
-    xp: 20.0
+    xp: 80.0
   auraskills/agility:
     level: 1
     xp: 50.15899999999999
@@ -38,4 +38,4 @@ action_bar:
   idle: true
 ability_data:
   auraskills/xp_convert:
-    xp: 3.224
+    xp: 3.2240000000000038
