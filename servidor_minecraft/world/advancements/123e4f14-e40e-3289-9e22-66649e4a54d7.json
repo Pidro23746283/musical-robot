@@ -316,7 +316,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-08-25 21:11:15 +0000"
+      "bread": "2025-08-25 21:11:15 +0000",
+      "golden_apple": "2025-08-26 01:45:58 +0000"
     },
     "done": false
   },
@@ -752,6 +753,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2025-08-26 01:00:55 +0000"
@@ -776,6 +783,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
       "has_logs": "2025-08-26 01:00:15 +0000"
@@ -794,6 +807,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-08-26 01:47:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2025-08-26 01:05:47 +0000"
@@ -803,6 +828,12 @@
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2025-08-26 01:19:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
     },
     "done": true
   },
@@ -848,6 +879,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-08-26 01:47:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-08-26 01:47:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2025-08-26 00:52:56 +0000"
@@ -872,6 +933,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2025-08-26 00:52:56 +0000"
@@ -881,6 +954,12 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
       "has_raw_gold": "2025-08-26 00:52:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
     },
     "done": true
   },
@@ -896,9 +975,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-08-26 01:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2025-08-26 00:52:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
     },
     "done": true
   },
@@ -911,6 +1002,18 @@
   "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
       "has_boat": "2025-08-26 01:05:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-08-26 01:47:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-08-26 01:47:26 +0000"
     },
     "done": true
   },
@@ -944,6 +1047,18 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2025-08-26 01:40:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-08-26 01:47:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2025-08-26 00:52:56 +0000"
@@ -959,6 +1074,12 @@
   "minecraft:recipes/building_blocks/mangrove_wood": {
     "criteria": {
       "has_log": "2025-08-26 01:38:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
     },
     "done": true
   },
@@ -986,9 +1107,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2025-08-26 01:05:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-08-26 01:47:26 +0000"
     },
     "done": true
   },
@@ -1022,6 +1155,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2025-08-26 01:47:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2025-08-26 01:05:56 +0000"
@@ -1034,15 +1173,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2025-08-26 00:52:56 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:49:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2025-08-26 00:52:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-08-26 01:49:13 +0000"
     },
     "done": true
   },
@@ -1058,9 +1221,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-08-26 01:47:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2025-08-26 01:00:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
     },
     "done": true
   },
@@ -1082,9 +1269,27 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2025-08-26 01:12:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-08-26 01:41:27 +0000"
     },
     "done": true
   },
@@ -1103,6 +1308,12 @@
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-08-26 01:05:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-08-26 01:47:26 +0000"
     },
     "done": true
   },
@@ -1127,6 +1338,12 @@
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
       "has_gold_ingot": "2025-08-26 00:52:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-08-26 01:41:13 +0000"
     },
     "done": true
   },
