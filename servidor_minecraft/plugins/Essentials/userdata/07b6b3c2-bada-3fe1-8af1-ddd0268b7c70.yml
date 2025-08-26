@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756157837897
+  lastteleport: 1756170034524
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1756153595961
-  login: 1756153761246
+  login: 1756168770691
 money: '0'
 last-account-name: Ibiisgiu
 lastlocation:
   world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
   world-name: world
-  x: -1664.5801603253117
-  y: 69.0
-  z: -599.3446467891922
-  yaw: 173.659912109375
-  pitch: 33.56680679321289
+  x: -870.5002521044707
+  y: 44.0
+  z: 649.1500000059605
+  yaw: -172.49951171875
+  pitch: 69.75001525878906
 logoutlocation:
   world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
   world-name: world
@@ -53,3 +53,11 @@ homes:
     z: -559.0714859990542
     yaw: 85.76214599609375
     pitch: 3.1445488929748535
+  ar:
+    world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
+    world-name: world
+    x: -153.33208603374587
+    y: 127.0
+    z: -975.8499999940395
+    yaw: -99.30218505859375
+    pitch: 15.89990234375

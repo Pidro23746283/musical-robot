@@ -3,8 +3,8 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 127.249.162.81
-afk: false
+ip-address: 127.133.211.128
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -17,7 +17,7 @@ timestamps:
   jail: 0
   onlinejail: 0
   logout: 1756162027136
-  login: 1756153719140
+  login: 1756168958315
 money: '0'
 last-account-name: robeeert7385
 lastlocation:
