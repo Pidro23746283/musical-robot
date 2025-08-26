@@ -11,7 +11,7 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1756162009877
+  lastteleport: 1756174514398
   lastheal: 0
   mute: 0
   jail: 0
@@ -23,11 +23,11 @@ last-account-name: robeeert7385
 lastlocation:
   world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
   world-name: world
-  x: 863.2042585004228
-  y: 71.61413788999418
-  z: -317.5105386375218
-  yaw: -76.95745849609375
-  pitch: 22.521881103515625
+  x: 1.3350744750532522
+  y: 147.0
+  z: 58.831419224874075
+  yaw: 10.2171630859375
+  pitch: 65.55321502685547
 logoutlocation:
   world: d90fa7c5-11a3-43d8-909d-fdb87fee10cb
   world-name: world
